@@ -6,4 +6,4 @@ title: Class Directory
 
 ---
 
-Hannah Scovill - hnsvill@gmail.com
+Hannah Scovill
