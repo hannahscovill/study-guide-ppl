@@ -112,6 +112,13 @@ resource "aws_cloudfront_distribution" "skybound" {
     origin_access_control_id = aws_cloudfront_origin_access_control.skybound.id
   }
 
+  custom_error_response {
+    error_code = 403
+    response_code = 403
+    response_page_path = "/index.html"
+    error_caching_min_ttl = 10
+  }
+
   aliases             = ["skybound.dev"]
   enabled             = true
   is_ipv6_enabled     = true
