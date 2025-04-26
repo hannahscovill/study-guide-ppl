@@ -8,13 +8,8 @@ resource "aws_s3_bucket" "skybound" {
   bucket = "skybound-dev-east" # Replace with your unique bucket name
 }
 
-resource "aws_acm_certificate" "skybound" {
-  domain_name       = "skybound.dev"
-  validation_method = "DNS"
-
-  lifecycle {
-    create_before_destroy = true
-  }
+data "aws_acm_certificate" "skybound" {
+  domain = "skybound.dev"
 }
 
 data "aws_cloudfront_cache_policy" "managed_caching_optimized" {
@@ -106,16 +101,15 @@ resource "aws_wafv2_web_acl" "skybound" {
 # CloudFront Distribution
 resource "aws_cloudfront_distribution" "skybound" {
   origin {
-    domain_name = aws_s3_bucket.skybound.bucket_regional_domain_name
-    # origin_id                = "skybound-dev-east.s3.us-east-1.amazonaws.com"
+    domain_name              = aws_s3_bucket.skybound.bucket_regional_domain_name
     origin_id                = aws_s3_bucket.skybound.bucket_regional_domain_name
     origin_access_control_id = aws_cloudfront_origin_access_control.skybound.id
   }
 
   custom_error_response {
-    error_code = 403
-    response_code = 403
-    response_page_path = "/index.html"
+    error_code            = 403
+    response_code         = 403
+    response_page_path    = "/index.html"
     error_caching_min_ttl = 10
   }
 
@@ -135,7 +129,7 @@ resource "aws_cloudfront_distribution" "skybound" {
   }
 
   viewer_certificate {
-    acm_certificate_arn      = aws_acm_certificate.skybound.arn
+    acm_certificate_arn      = data.aws_acm_certificate.skybound.arn
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.2_2021"
   }

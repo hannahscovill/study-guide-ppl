@@ -5,16 +5,30 @@ provider "aws" {
 
 # S3 Bucket
 resource "aws_s3_bucket" "skybound" {
-  bucket = "skybound-dev-east" # Replace with your unique bucket name
+  bucket = "skybound-dev" # Replace with your unique bucket name
 }
 
-resource "aws_acm_certificate" "skybound" {
-  domain_name       = "skybound.dev"
-  validation_method = "DNS"
+data "local_file" "static_site_files" {
+  #  for_each = fileset("../build/", "**^.DS_Store") 
+  #  for_each = [ for fileName in fileset("../build/","**") : fileName if endswith(fileName, ".DS_Store") ]
+  for_each = toset([
+    for file in fileset("../build/", "**") : file
+    if !endswith(file, ".DS_Store")
+  ])
+  filename = "../build/${each.value}"
+}
 
-  lifecycle {
-    create_before_destroy = true
-  }
+resource "aws_s3_object" "static_site_files" {
+  for_each = data.local_file.static_site_files
+  bucket   = aws_s3_bucket.skybound.bucket
+  key      = each.key
+  source   = data.local_file.static_site_files[each.key].filename
+  #  content_type = "text/plain" # Update content type based on your files 
+  etag = filemd5(data.local_file.static_site_files[each.key].filename) # Ensure updates only for changed files 
+}
+
+data "aws_acm_certificate" "skybound" {
+  domain = "skybound.dev"
 }
 
 data "aws_cloudfront_cache_policy" "managed_caching_optimized" {
@@ -23,7 +37,7 @@ data "aws_cloudfront_cache_policy" "managed_caching_optimized" {
 
 
 resource "aws_wafv2_web_acl" "skybound" {
-  name  = "CreatedByCloudFront-f1f45350"
+  name  = "CreatedByCloudFront-78414b07-2b01-4c47-9ba9-b08591394d26"
   scope = "CLOUDFRONT"
 
   default_action {
@@ -97,7 +111,7 @@ resource "aws_wafv2_web_acl" "skybound" {
 
   visibility_config {
     cloudwatch_metrics_enabled = true
-    metric_name                = "CreatedByCloudFront-f1f45350"
+    metric_name                = "CreatedByCloudFront-78414b07-2b01-4c47-9ba9-b08591394d26"
     sampled_requests_enabled   = true
   }
 }
@@ -106,20 +120,19 @@ resource "aws_wafv2_web_acl" "skybound" {
 # CloudFront Distribution
 resource "aws_cloudfront_distribution" "skybound" {
   origin {
-    domain_name = aws_s3_bucket.skybound.bucket_regional_domain_name
-    # origin_id                = "skybound-dev-east.s3.us-east-1.amazonaws.com"
+    domain_name              = aws_s3_bucket.skybound.bucket_regional_domain_name
     origin_id                = aws_s3_bucket.skybound.bucket_regional_domain_name
     origin_access_control_id = aws_cloudfront_origin_access_control.skybound.id
   }
 
   custom_error_response {
-    error_code = 403
-    response_code = 403
-    response_page_path = "/index.html"
+    error_code            = 403
+    response_code         = 403
+    response_page_path    = "/index.html"
     error_caching_min_ttl = 10
   }
 
-  aliases             = ["skybound.dev"]
+  # aliases             = ["skybound.dev"]
   enabled             = true
   is_ipv6_enabled     = true
   default_root_object = "index.html"
@@ -135,7 +148,7 @@ resource "aws_cloudfront_distribution" "skybound" {
   }
 
   viewer_certificate {
-    acm_certificate_arn      = aws_acm_certificate.skybound.arn
+    acm_certificate_arn      = data.aws_acm_certificate.skybound.arn
     ssl_support_method       = "sni-only"
     minimum_protocol_version = "TLSv1.2_2021"
   }
