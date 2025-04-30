@@ -83,8 +83,29 @@ const config: Config = {
               to: '/docs/principles_of_flight',
             },
             {
-              label: 'FAA Handbooks & Manuals',
+              label: 'FAA Aviation Handbooks & Manuals',
               to: 'https://www.faa.gov/regulations_policies/handbooks_manuals',
+            }
+          ],
+        },
+        {
+          title: 'Ground School Resources & Syllabi',
+          items: [
+            {
+              label: 'MIT OpenCourseWare PPL Ground School',
+              to: 'https://ocw.mit.edu/courses/16-687-private-pilot-ground-school-january-iap-2019/',
+            },
+            {
+              label: 'Gleim Free Downloads',
+              to: 'https://www.gleimaviation.com/resources/free-downloads/',
+            },
+            {
+              label: 'ASA Complete Pilot Series',
+              to: 'https://asa2fly.com/pilot-library/textbooks/the-complete-pilot-series/',
+            },
+            {
+              label: 'EAA',
+              to: 'https://www.eaa.org/eaa/eaa-chapters/eaa-chapter-resources/~/media/44814cf21110417fac3f8b6ec735f826.ashx',
             }
           ],
         },
