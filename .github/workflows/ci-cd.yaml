@@ -68,7 +68,7 @@ jobs:
 
       - name: Sync build files to S3
         run: |
-          export CLOUDFRONT_DISTRIBUTION_ID=$(cat $TF_OUTPUT_FILE | jq '.cloudfront_distribution_id.value')
+          export CLOUDFRONT_DISTRIBUTION_ID=$(cat $TF_OUTPUT_FILE | jq -r '.cloudfront_distribution_id.value')
           echo $CLOUDFRONT_DISTRIBUTION_ID
           aws s3 sync build/ s3://skybound-dev --exclude "*.DS_Store"
           aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*' 
