@@ -13,7 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "test": "vitest run"
+    "test": "vitest run --coverage"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
@@ -29,6 +29,8 @@
     "@docusaurus/module-type-aliases": "3.7.0",
     "@docusaurus/tsconfig": "3.7.0",
     "@docusaurus/types": "3.7.0",
+    "@vitest/coverage-istanbul": "^3.1.2",
+    "@vitest/coverage-v8": "^3.1.2",
     "typescript": "~5.6.2"
   },
   "browserslist": {

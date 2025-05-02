@@ -6,7 +6,10 @@ sidebar_position: 1
 
 Leading Edge, Upper Camber, Mean Camber, Trailing Edge
 Lower Camber Chord ("C" in the lift equation)
+
 L=CL * SA * .5P * V
+
+L: Lift
 
 CL: Angle of Attack: Angle between the chord line and the relative wind
 - If the plane is level and falling straight down, the AOA would be 90 degrees
@@ -28,13 +31,14 @@ thrust is only greater than drag when accelerating.
 	- Gliders generate thrust through pointing the nose down
 
 - Drag
-	- Parasitic
+	- Parasitic: Highest at high speeds
 		- Lowest when going slow, highest when going fast
 		- Skin friction drag
 			- Rivets instead of screws
 		- Form drag
 			- Sleek shape instead of city bus
-	- Induced
+		- Interference drag
+	- Induced: highest at low speed
 		- Byproduct of lift - the wingtip vortices
 	- Total
 	- Glide speed is the bottom of the drag curve. the most distance for the least
@@ -112,6 +116,8 @@ Wake Turbulence
 
 Ground effect
 - Reduction of induced drag - because the vortices can't form because the ground is in the way
+It's half of your wingspan or the length of one wing.
+Low wing airplanes can land more smoothly because they enter ground effect sooner in their descent.
 
 Slow Flight
 - Maintaining altitude while slowing down
@@ -126,3 +132,36 @@ Slips
 	- Use aileron 
 - Side Slip
 	- For landing in crosswind
+
+
+## Recap
+
+
+The motion through the air itself if relative wind
+** Review the difference between AOA and relative wind
+
+Angle of attack is the relationship between the chord line of the wing and the relative wind
+
+
+induced
+Paracitic
+skin friction drag is paracitic
+
+INTERFERENCE DRAG: Air splitting and meeting back together
+The disturbance is greatest at two planes meeting each other
+
+When you're going fast, the skin 
+
+Adverse yaw is when one wing creates more lift than the other, meaning it also creates more drag and causes your node to veer off to the side
+
+You have to add power in a steep turn because lift is not as vertical so you have to compensate with more thrust
+
+When does an airplane stall? The textbook answer is "When you exceed your critical angle of attack."
+
+Va is stall the plane before you break the plane
+Vx is something else
+
+The lighter you are, the lower the Va
+A g5 (is that wit the color arcs?)
+
+Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean and slow

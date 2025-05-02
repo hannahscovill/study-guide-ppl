@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  TF_OUTPUT_FILE: '/tmp/terraformOutputs.json'
+
 jobs:
   testbuilddeploy:
     runs-on: ubuntu-latest
@@ -25,7 +28,6 @@ jobs:
       - name: Run tests
         run: npm test
 
-      # Step 5: Fail the build if tests fail
       - name: Verify test results
         if: failure()
         run: echo "Tests failed. Build failed."
@@ -50,21 +52,26 @@ jobs:
           aws-region: us-west-2
 
       - name: Setup Terraform
+        id: terraform-setup
         uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_wrapper: false
 
       - name: Apply the Template
+        id: terraform-apply
         run: |
           cd terraform
           terraform init -input=false
           terraform plan -input=false
           terraform apply -auto-approve
+          terraform output -json >> $TF_OUTPUT_FILE
 
-      - name: sync build files
+      - name: Sync build files to S3
         run: |
-          ls -al
-          cd build
-          ls -al
-          aws s3 sync . s3://skybound-dev --exclude "*.DS_Store"
+          export CLOUDFRONT_DISTRIBUTION_ID=$(cat $TF_OUTPUT_FILE | jq '.cloudfront_distribution_id.value')
+          echo $CLOUDFRONT_DISTRIBUTION_ID
+          aws s3 sync build/ s3://skybound-dev --exclude "*.DS_Store"
+          aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths '/*' 
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
