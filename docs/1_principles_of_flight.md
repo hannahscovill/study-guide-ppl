@@ -171,12 +171,14 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 
 <details>
 	<summary><strong>1. What are the forces of flight and draw how they oppose each other</strong></summary>
+
 	Thrust and drag oppose each other, Lift and weight oppose each other
 </details>
 <br/>
 
 <details>
 	<summary><strong>2. What is the chord line of the wing? Relative wind? Angle of Attack?</strong></summary>
+
 	Chord line is a straight line from the leading to trailing edge, relative wind is the wind opposite the
 	motion of the airplane and AOA is the angle between the two.
 </details>
@@ -184,58 +186,68 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 
 <details>
 	<summary><strong>3. Name the two types of drag and when they are highest</strong></summary>
+
 	Parasitic and Induced. Parasitic increases with speed, induced does the opposite
 </details>
 <br/>
 
 <details>
 	<summary><strong>4. If you are trying to maintain constant lift, and airspeed is decreased, what can be done to maintain the same lift?</strong></summary>
+
 	Add flaps to change the surface area of the wing, or increase AOA
 </details>
 <br/>
 
 <details>
 	<summary><strong>5. What is positive vs negative static stability? What do we want in our trainer planes?</strong></summary>
+
 	We want to have positive stability. Positive static stability is the plane's resistance to moving from the current state of being. Negative static stability is when the plane continues to move with the initial deflection.
 </details>
 <br/>
 
 <details>
 	<summary><strong>6. What is adverse yaw?</strong></summary>
+
 	Yaw created by the induced drag from the lift differential between the high and low wing in a turn
 </details>
 <br/>
 
 <details>
 	<summary><strong>7. Why in a steep turn, do we need to pitch up and add power?</strong></summary>
+
 	Less vertical component of lift, so more AOA needed. Greater lift production causes induced drag, so more thrust is needed.
 </details>
 <br/>
 
 <details>
 	<summary><strong>8. When does a plane stall?</strong></summary>
+
 	It reaches the critical angle of attack, airflow separates from the top of the wing
 </details>
 <br/>
 
 <details>
 	<summary><strong>9. Name the turning tendencies and describe one of them</strong></summary>
+
 	P-factor: The downward moving propeller blade (right) at high angles of attack creates more thrust and lift causing a yawing and rolling moment to the left. Vice versa at descent angles, therefore requiring left rudder to compensate for the right turning moment.
 </details>
 <br/>
 <details>
 	<summary><strong>10. What is maneuvering speed (Va)?</strong></summary>
+
 	The speed up to which you will stall the plane before you break the plane when you apply one full travel control movement. Essentially if I am below Va, and I pull up on the stick/yoke, I will stall before I exceed the G limit
 </details>
 <br/>
 
 <details>
 	<summary><strong>11. What is wake turbulence? How do you avoid it?</strong></summary>
+
 	Turbulence caused by the spiraling wingtip vortices behind aircraft. More significant from heavy, clean and slow aircraft, sinking 300-500 fpm. Takeoff before the departing aircraft or land after the landing aircraft.
 </details>
 <br/>
 
 <details>
 	<summary><strong>12. Why do we “float” in ground effect? Where is the ground effect strongest?</strong></summary>
+
 	The ground disrupts the wingtip vortices that cause induced drag, therefore making induced drag lower and allowing us to "float". Ground effect is ½ a wingspan from the ground and strongest the closer you get
 </details>
