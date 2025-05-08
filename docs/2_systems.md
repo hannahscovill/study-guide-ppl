@@ -47,7 +47,7 @@ To counteract adverse yaw
 It looks twisted because needs to take more of a "bite" from the air closer to the nose because it's moving more slowly
 
 The faster the edge of the propeller is traveling, the more drag it's producing
-Big planes add blades instead of longer propellers
+Big planes add blades instead of longer propellers because the edges approach the speed of sound and get much less efficient
 
 ## Powerplant
 Engine!!
@@ -80,6 +80,11 @@ Do you still have induction on fuel injected engines
 
 Any time you reduce the throttle, you "pull the carb heat out" to put heat on the carb to prevent icing
 
+Ice can form in
+- the butterfly valve
+- the venturi because it's creating a low pressure (cooler) system
+
+
 
 #### Fuel Injected engines
 You have an electrical system that's keeping the same ratio of fuel to air
@@ -95,6 +100,8 @@ There's a ball that spins around in it
 There's a spring in it - when you start, it uses
 
 Each magneto connects to one of the spark plugs in each cylanger
+
+If a magneto failed, you'd not really be able to climb. You'd probably drop around 4000 RPM
 
 ### Oil System
 
@@ -115,6 +122,8 @@ Shock cooling is a thing - causes cracks in the engine
 
 ### Exhaust
 The hot air has to go somewhere or it can't intake more air
+
+MANIFOLD, NOT SHROUD
 Goes trhough a heat shroud  - it's a cabin and carburator heater. If there's a crack in the shroud you can get CO poisioning. You'll get light headed
 
 Exhaust gas is over 1000 degrees

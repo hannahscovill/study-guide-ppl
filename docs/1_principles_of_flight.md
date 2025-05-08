@@ -4,10 +4,21 @@ sidebar_position: 1
 
 # Principles of Flight
 
-Leading Edge, Upper Camber, Mean Camber, Trailing Edge
-Lower Camber Chord ("C" in the lift equation)
+## Parts of an airfoil
+![airfoil cross section diagram](https://web.eng.fiu.edu/allstar/images/pic3-1.gif)
+
+- Leading Edge
+- Upper Camber
+- Mean Camber
+- Trailing Edge
+- Lower Camber
+- Chord ("C" in the coefficient of lift)
+
+## Coefficient of Lift
 
 L=CL * SA * .5P * V
+
+<!-- <CoefficientOfLiftCalculation/> -->
 
 L: Lift
 
@@ -22,52 +33,61 @@ V: Airspeed
 
 
 
-### Forces in Flight
-Thrust, Drag, Lift, Weight
+## Forces in Flight
+
+<img width='250px' alt='thrust is forward, drag is backward, lift is upward, weight is downward' src='https://howthingsfly.si.edu/themes/howthingsfly/images/dltw.png'/>
+
 thrust is only greater than drag when accelerating.
 
-- Thrust
-	- propellers
-	- Gliders generate thrust through pointing the nose down
+### Thrust
+- Powered aircraft creates thrust from the propellers
+- Gliders generate thrust by pointing the nose down
 
-- Drag
-	- Parasitic: Highest at high speeds
-		- Lowest when going slow, highest when going fast
-		- Skin friction drag
-			- Rivets instead of screws
-		- Form drag
-			- Sleek shape instead of city bus
-		- Interference drag
-	- Induced: highest at low speed
-		- Byproduct of lift - the wingtip vortices
-	- Total
-	- Glide speed is the bottom of the drag curve. the most distance for the least
-	- Bernoullis Principal
-		- If you move something through a fluid really fast it will create less drag
-		- Equal time transient theory has been disproven
-- Weight
-	- Always right in the direction of gravitational pull
-- Lift
+### Drag
+- Parasitic
+	- Lowest when going slow, highest when going fast
+	- Skin friction drag
+		- Rivets instead of screws
+	- Form drag
+		- Sleek shape instead of city bus
+		<img width='500px' src='https://learntoflyblog.com/wp-content/uploads/2016/04/4-5.png'/>
+	- Interference drag
+	    - Drag produced by the rough air meeting again on the other side of two parts of the plane that connect
+		<img width='500px' src='https://cdn.boldmethod.com/images/learn-to-fly/aerodynamics/parasite-drag-and-your-airplane/interference-drag.jpg'/>
+- Induced
+    - Highest at low speed
+	- Byproduct of lift - the wingtip vortices
+- Total
+- Glide speed is the bottom of the drag curve. the most distance for the least
+- Bernoullis Principal
+	- If you move something through a fluid really fast it will create less drag
+	- Equal time transient theory has been disproven
+### Weight
+- Always right in the direction of gravitational pull
+### Lift
 
 
-- Stability - the aircraft's tendency after a change is applied
-	- Positive Static Stability
-		- Push forward on the yoke and let go, it will dip and correct, then the next dip will be smaller
-	- Neutral Static Stability
-		- Push forward on the yoke and let go, it will keep going down at the same angle
-	- Negative Static Stability
-		- Push forward on the yoke and let go, it will increase the downward angle
+## Stability
 
-	- Longitudinal Stability
-		- stability from the nose to tail
-		- The axis it pivots around is the lateral
-	- Lateral Stability
-		- Pivots around the longitudinal axis
-		- Most wings take a dihedral shape so when banked, the lower wind  naturally creates more lift and brings the aircraft back to
-		- Swept back wing/keel effect
-	- All axis, longitudinal
+What the aircraft does, or it's tendency after a change is applied to the controls.
 
-Airfoil designs
+- Positive Static Stability
+	- Push forward on the yoke and let go, it will dip and correct, then the next dip will be smaller
+- Neutral Static Stability
+	- Push forward on the yoke and let go, it will keep going down at the same angle
+- Negative Static Stability
+	- Push forward on the yoke and let go, it will increase the downward angle
+
+- Longitudinal Stability
+	- stability from the nose to tail
+	- The axis it pivots around is the lateral
+- Lateral Stability
+	- Pivots around the longitudinal axis
+	- Most wings take a dihedral shape so when banked, the lower wind  naturally creates more lift and brings the aircraft back to
+	- Swept back wing/keel effect
+- All axis, longitudinal
+
+## Airfoil designs
 - Rectangle
 	- Cheap, safe
 - Elliptical
@@ -80,7 +100,7 @@ Airfoil designs
 
 Less of the vortex is created when the wing is thinner (the chord is shorter)
 
-Adverse yaw
+## Adverse yaw
 - The reason we have rudders - to coordinate turns
 - When you turn the yoke
 
@@ -88,54 +108,58 @@ Why do big aircraft have big spoilers instead of correcting more with a rudder
 
 Stalls happen in the critical angle of attack, when inadequate lift is being generated. Stall can happen at any airspeed.
 
-### Turning Tendencies
+## Turning Tendencies
 Forces that create a yaw
-- Spiraling slipstream
+### Spiraling slipstream
 	- The faster you get, the lower frequency the coil
-- Torque
+### Torque
 	- When the propeller turns, because of equal and opposite forces, it's trying to turn the airplane in the opposite direction
 	- Does that cause enough unequal stress that they have to reinforce?
-- P Factor
+### P Factor
 	- Higher at slow airspeed and high AOA
 	- Lower at high
 	- One side of the propeller is doing more work than the other side of the propeller 
-- Gyroscopic procession
+### Gyroscopic procession
 	- it's only when you're lifting the nose up or pushing it down
 	- The propeller is a gyroscope - it 
 	- If you push on a gyroscope, the pressure of the push isn't in full effect until a 90 degree turn has happened
 
 
-Wingtip Vortices
+## Wingtip Vortices
 - High pressure air escapes to the top of the wing
 
-Wake Turbulence
+## Wake Turbulence
 - Wingtip vortices - a much larger airplane can create a very dangerous wake
 - What's the worst for wake turbulence
 	- Right (or left?) quartering tailwind
 		- Why right instead of tailwind?
 
-Ground effect
+## Ground effect
 - Reduction of induced drag - because the vortices can't form because the ground is in the way
-It's half of your wingspan or the length of one wing.
-Low wing airplanes can land more smoothly because they enter ground effect sooner in their descent.
 
-Slow Flight
+It's half of your wingspan or the length of one wing.
+
+Low wing airplanes can land more smoothly because they enter ground effect sooner in their descent.
+<img width='500px' src='https://myskynotes.wordpress.com/wp-content/uploads/2019/06/screen-shot-2019-06-17-at-12.55.16-pm.png'/>
+
+
+## Slow Flight
 - Maintaining altitude while slowing down
 - Produce a lot of lift, produces a lot of drag, then you need more thrust to overcome it so you maintain altitude
 
-Region of Reverse Command *They wanted to cover it again*
+## Region of Reverse Command
+<!-- *They wanted to cover it again* -->
 - The area behind the power curve behind the best glide
 - Which side of the power curve are you on
 
-Slips
+## Slips
 - Forward Slip
 	- Use aileron 
 - Side Slip
 	- For landing in crosswind
 
 
-## Recap
-
+# Recap
 
 The motion through the air itself if relative wind
 ** Review the difference between AOA and relative wind
@@ -170,24 +194,40 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 ## Quiz
 
 <details>
-	<summary><strong>1. What are the forces of flight and draw how they oppose each other</strong></summary>
+	<summary><strong>1. What are the forces of flight? In which directions do they oppose each other?</strong></summary>
 
-	Thrust and drag oppose each other, Lift and weight oppose each other
+	Thrust (forward) and drag (backward) oppose each other, lift (upward) and weight (downward) oppose each other
 </details>
 <br/>
 
 <details>
-	<summary><strong>2. What is the chord line of the wing? Relative wind? Angle of Attack?</strong></summary>
+	<summary><strong>
+	2a. What is the chord line of the wing?
 
-	Chord line is a straight line from the leading to trailing edge, relative wind is the wind opposite the
-	motion of the airplane and AOA is the angle between the two.
+	2b. Relative wind?
+
+	2c. Angle of Attack?
+	</strong></summary>
+
+	2a. Chord line is a straight line from the leading to trailing edge
+
+	2b. Relative wind is the wind opposite from the motion of the airplane
+
+	2c. Angle of Attack (AOA) is the angle between the chord line and the relative wind
+
+	![diagram](../static/img/chord-aoa-relative-wind.png)
 </details>
 <br/>
 
 <details>
-	<summary><strong>3. Name the two types of drag and when they are highest</strong></summary>
+	<summary><strong>3. What are the two types of drag? When they are highest?</strong></summary>
 
-	Parasitic and Induced. Parasitic increases with speed, induced does the opposite
+	Parasitic & Induced.
+	
+	Parasitic
+	    - increases with speed
+	Induced
+	    - highest at low speed
 </details>
 <br/>
 
