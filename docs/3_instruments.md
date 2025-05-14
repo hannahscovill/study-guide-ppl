@@ -101,7 +101,10 @@ You can use DME for measuring distance from a VOR
 ### Electronic instruments
 
 
+
 # Quiz
+
+Instruments quiz 
 
 <details>
     <summary><strong>1. What are the primary flight controls? What do they control?</strong></summary>
@@ -174,16 +177,32 @@ You can use DME for measuring distance from a VOR
 <details>
     <summary><strong>10. Explain what you would do or check in each of the following scenarios:</strong></summary>
 
-    a. In the summer, climbing to cruise altitude and the CHT’s are in the red  
-    Lower the pitch, reduce rpm, accelerate to increase airflow over the engine  
+    <details>
+    <summary><strong>a. In the summer, climbing to cruise altitude and the CHT’s are in the red</strong></summary>
 
-    b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes  
-    Take the airplane back to get checked out, some problems you will not be able to solve yourself  
+    Lower the pitch, reduce rpm, accelerate to increase airflow over the engine
+    </details>
+    <br/>
 
-    c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard  
-    Verify carb heat is pushed in and magnetos are on BOTH  
+    <details>
+        <summary><strong>b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes</strong></summary>
 
-    d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time  
-    Likely carb ice, so pull carb heat and let run for several minutes
+        Take the airplane back to get checked out, some problems you will not be able to solve yourself
+    </details>
+    <br/>
+
+    <details>
+        <summary><strong>c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard</strong></summary>
+
+        Verify carb heat is pushed in and magnetos are on BOTH
+    </details>
+    <br/>
+
+    <details>
+        <summary><strong>d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time</strong></summary>
+
+        Likely carb ice, so pull carb heat and let run for several minutes
+    </details>
+<br/>
 </details>
 <br/>
