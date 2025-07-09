@@ -1,6 +1,5 @@
 // Import the original mapper
 import MDXComponents from '@theme-original/MDXComponents';
-import Highlight from '../components/Highlight/Highlight';
 import Quiz from '../components/Quiz/Quix';
 import CoefficientOfLiftCalculation from '../components/CoefficientOfLiftCalc/CoefficientOfLiftCount';
 

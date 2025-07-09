@@ -18,7 +18,7 @@ sidebar_position: 1
 
 L=CL * SA * .5P * V
 
-<!-- <CoefficientOfLiftCalculation/> -->
+<CoefficientOfLiftCalculation/>
 
 L: Lift
 

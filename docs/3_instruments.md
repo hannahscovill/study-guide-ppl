@@ -13,6 +13,10 @@ Fed by the pitot tube
 - Takes in both ram air pressure and static air pressure
 Compares two different pressures
 
+"Calibrated leak"
+
+If you lea
+
 
 ### Vertical Airspeed indicator
 Tells you if you're climbing or descending
@@ -58,6 +62,8 @@ Skid is tokyo drifting, you can end up in a spin
 On base to final you sometimes encourage a skid
 Also taking off and turning crosswind is when you'll spin
 
+Uses rigity in space
+
 ## Magnetic Compass
 
 True north and magnetic north -> Magnetic variation
@@ -85,9 +91,11 @@ Pulsing and Sweeping signal
 
 ## Course Deviation Indicator
 
-If you did dual VOR navication you'd ude two CDIs
+If you did dual VOR navigation you'd ude two CDIs
 
 You get the VOR frequencies from your chart
+
+Turn the OBS knob to change the heading, tune in your CDI through OBS
 
 ### Errors
 
@@ -98,13 +106,44 @@ The US has a VOR "minimum operational network" where you could
 You can use DME for measuring distance from a VOR
 
 
+### Distance Measuring Equipment
+DME measures distance in slant range distance
+Not good at it's job when you're close and high. Accurate when you're low and far away
+
+Do we need to know more than abode?
+
+
+A VOR _has_ DME most of the time if it has DME at all. twin oakes planes have GPS instead of DME
+
+### Horizontal Situation Indicator HSI
+Usually wont have the analog version of this in most (Twin Oaks) cesnas
+The cesnas have a G5
+
+
 ### Electronic instruments
 
+Combines your entire 6pack into one instrument
+
+## magnetometer
+Heading comes from magnetometer - located in the tail, the wing or in cesnas the strut. It measures the change in the flow of an electronic current
+
+## Air Data computer
+rv12s
+448
+35H
+
+Those iwthout an air temperature probe uses ... something else. Without the probe it cant calculate true airspeed
+
+## Attitude and Headeing Reference System
+Combination of magnitometer, accelerometer and a fake gyroscope
+In the g5s it
+
+Air inertia sensor ..??
 
 
-# Quiz
 
-Instruments quiz 
+
+## Quiz
 
 <details>
     <summary><strong>1. What are the primary flight controls? What do they control?</strong></summary>
@@ -174,35 +213,33 @@ Instruments quiz
 </details>
 <br/>
 
-<details>
-    <summary><strong>10. Explain what you would do or check in each of the following scenarios:</strong></summary>
+## Scenarios
 
-    <details>
+Explain what you would do or check in each of the following scenarios:
+
+<details>
     <summary><strong>a. In the summer, climbing to cruise altitude and the CHT’s are in the red</strong></summary>
 
     Lower the pitch, reduce rpm, accelerate to increase airflow over the engine
-    </details>
-    <br/>
-
-    <details>
-        <summary><strong>b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes</strong></summary>
-
-        Take the airplane back to get checked out, some problems you will not be able to solve yourself
-    </details>
-    <br/>
-
-    <details>
-        <summary><strong>c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard</strong></summary>
-
-        Verify carb heat is pushed in and magnetos are on BOTH
-    </details>
-    <br/>
-
-    <details>
-        <summary><strong>d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time</strong></summary>
-
-        Likely carb ice, so pull carb heat and let run for several minutes
-    </details>
-<br/>
 </details>
 <br/>
+
+<details>
+    <summary><strong>b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes</strong></summary>
+
+    Take the airplane back to get checked out, some problems you will not be able to solve yourself
+</details>
+<br/>
+
+<details>
+    <summary><strong>c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard</strong></summary>
+
+    Verify carb heat is pushed in and magnetos are on BOTH
+</details>
+<br/>
+
+<details>
+    <summary><strong>d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time</strong></summary>
+
+    Likely carb ice, so pull carb heat and let run for several minutes
+</details>
