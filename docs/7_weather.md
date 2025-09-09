@@ -191,7 +191,7 @@ Air mass is forced up a hill, cooled to it's dew point
 
 Extra fine, small rain particles
 
-### Freexing fog
+### Freezing fog
 
 Less common around here.
 
@@ -216,3 +216,97 @@ Stress
 Alchohol
 Fatigue
 E
+
+
+## Quiz
+
+<details>
+    <summary><strong>1. Decode this METAR:<br/>KHIO 131653Z 13005KT 6SM -RA BR OVC033 04/04 A2979 RMK AO2 SLP090 P0003 T00440039</strong></summary>
+
+    Hillsboro  
+    13th at 8:53am  
+    Wind 130 @ 05kts  
+    6SM visibility  
+    Light rain  
+    Mist  
+    Overcast 3300  
+    Temperature 4°C  
+    Dewpoint 4°C  
+    Altimeter 29.79
+</details>
+<br/>
+
+<details>
+    <summary><strong>2. What is a PIREP? Are there different kinds? What are they for?</strong></summary>
+
+    A pilot report  
+    There can be urgent or normal PIREPs  
+    They are often for cloud cover, icing, turbulence, wind shear, etc.
+</details>
+<br/>
+
+<details>
+    <summary><strong>3. Decode this TAF:<br/>KHIO 131137Z 1312/1412 14004KT 4SM BR OVC005<br/>FM131800 14008KT 5SM -RA SCT010 OVC025<br/>FM132100 13008KT 2SM -RA BR BKN007 OVC015<br/>FM140500 15010KT 4SM -RA BR OVC015</strong></summary>
+
+    Hillsboro  
+    13th at 3:37am from the 13th at 12 to the 14th at 12  
+    Winds 140 @ 04kts 4SM visibility mist overcast 500  
+    From 13th at 10am winds 140 @ 08kts 5SM visibility light rain scattered 1000 overcast 2500  
+    From 13th at 1pm winds 130 @ 08kts 2SM visibility light rain mist broken 700 overcast 1500  
+    From 13th at 9pm winds 150 @ 10kts 4SM visibility light rain mist overcast 1500
+</details>
+<br/>
+
+<details>
+    <summary><strong>4. What are the 3 kinds of AIRMETS?</strong></summary>
+
+    Tango - Turbulence  
+    Sierra - Mountain Obscuration or IFR  
+    Zulu - Icing
+</details>
+<br/>
+
+<details>
+    <summary><strong>5. What are examples of some SIGMETS? How long is a convective SIGMET valid for?</strong></summary>
+
+    Tango, Sierra, Zulu, and a convective SIGMET is valid for 2 hours.  
+    Tornadoes, thunderstorms are examples.
+</details>
+<br/>
+
+<details>
+    <summary><strong>6. What is Hypoxia vs Hyperventilation?</strong></summary>
+
+    Hypoxia is not enough oxygen in the body  
+    Hyperventilation is too much CO2
+</details>
+<br/>
+
+<details>
+    <summary><strong>7. How long should you wait after drinking to fly?</strong></summary>
+
+    8 hours bottle to throttle, 0.04 blood alcohol
+</details>
+<br/>
+
+<details>
+    <summary><strong>8. What does IMSAFE stand for?</strong></summary>
+    Illness  
+    Medication  
+    Stress  
+    Alcohol  
+    Fatigue  
+    Emotion
+</details>
+<br/>
+
+<details>
+    <summary><strong>9. What are the 5 hazardous attitudes?</strong></summary>
+
+    Macho: "I can do it!"
+    Anti-Authority: "Don't tell me what to do!"
+    Impulsivity: "Do something quickly!"
+    Invulnerability: "It won't happen to me!"
+    Resignation: "What's the use?"
+</details>
+<br/>
