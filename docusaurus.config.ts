@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Private Pilot Study Guide',
-  tagline: 'Twin Oaks Spring PPL Ground School: Gabriel & Nick',
+  title: 'Private Pilot Ground Study',
+  tagline: 'PPL Ground',
   favicon: 'img/tiny-plane.png',
 
   // Set the production url of your site here
