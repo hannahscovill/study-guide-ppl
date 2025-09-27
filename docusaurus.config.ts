@@ -52,6 +52,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      defaultMode: 'dark', // This sets dark mode as the default
+      disableSwitch: false, // Set to true if you want to hide the light/dark mode switch
+      respectPrefersColorScheme: true, // Set to true if you want to respect user system preferences
+    },
     navbar: {
       title: 'Aviation Study Guide',
       logo: {
