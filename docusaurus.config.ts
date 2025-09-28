@@ -66,9 +66,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'groundSchoolPPLSidebar',
           position: 'left',
           label: 'Class Notes',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'phakSidebar',
+          position: 'left',
+          label: 'PHAK Book Club',
         },
         {
           href: 'https://github.com/hannahscovill/study-guide-ppl',

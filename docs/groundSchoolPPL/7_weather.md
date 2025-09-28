@@ -8,7 +8,7 @@ sidebar_position: 7
 
 Layers:
 
-![](image.png)
+![](../../static/img/image.png)
 Thermopause
 Thermosphere
 Mesophere
@@ -66,7 +66,7 @@ Winds above 20kts gets ...scary??
 
 ## Windshear
 
-![alt text](image-1.png)
+![alt text](../../static/img/image-1.png)
 
 Spot #1 you get an increase in performance
 
@@ -291,6 +291,7 @@ E
 
 <details>
     <summary><strong>8. What does IMSAFE stand for?</strong></summary>
+    
     Illness  
     Medication  
     Stress  

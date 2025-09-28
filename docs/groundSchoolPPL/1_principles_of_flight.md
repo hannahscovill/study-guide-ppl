@@ -215,7 +215,7 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 
 	2c. Angle of Attack (AOA) is the angle between the chord line and the relative wind
 
-	![diagram](../static/img/chord-aoa-relative-wind.png)
+	![diagram](../../static/img/chord-aoa-relative-wind.png)
 </details>
 <br/>
 
