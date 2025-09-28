@@ -91,7 +91,7 @@ const config: Config = {
           items: [
             {
               label: 'Class Notes',
-              to: '/docs/principles_of_flight',
+              to: '/docs/groundSchoolPPL/principles_of_flight',
             },
             {
               label: 'FAA Aviation Handbooks & Manuals',
