@@ -1,0 +1,18 @@
+.feature-title {
+    font: helvetica;
+    color: blue;
+}
+
+.feature-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+.feature-card-image {
+    border-radius: 2%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
