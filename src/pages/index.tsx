@@ -40,8 +40,8 @@ const AboutTheHost = () => {
       body={<>
         <p>
           I'm a student at Twin Oaks (7S3) studying for my SPL written exam.<br/><br/>
-          I'm also a Software Engineer at Nike and value technical writing.<br/><br/>
-          I'm excited to find community working toward similar goals and offer my technical writing experience for us all to learn what's in the PHAK.
+          I'm also Software Engineer at Nike who values technical writing. I also teach CrossFit 1-2 nights/week.<br/><br/>
+          I'm excited to find community working toward similar goals and offer my technical writing experience to learn about Aviation.
         </p>
       </>}
       imgSrc='https://cloudfilesdm.com/postcards/3906small-0a2d52c6.png'
