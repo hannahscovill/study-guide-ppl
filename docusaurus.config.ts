@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -68,7 +68,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'groundSchoolPPLSidebar',
           position: 'left',
-          label: 'Class Notes',
+          label: 'PPL Ground School Notes',
         },
         {
           type: 'docSidebar',
@@ -89,10 +89,6 @@ const config: Config = {
         {
           title: 'Resources',
           items: [
-            {
-              label: 'Class Notes',
-              to: '/docs/groundSchoolPPL/principles_of_flight',
-            },
             {
               label: 'FAA Aviation Handbooks & Manuals',
               to: 'https://www.faa.gov/regulations_policies/handbooks_manuals',
@@ -128,8 +124,16 @@ const config: Config = {
               href: 'https://github.com/hannahscovill/study-guide-ppl',
             },
             {
+              label: 'Join the book club!',
+              to: '/bookClub',
+            },
+            {
               label: 'Class Directory',
               to: '/classDirectory',
+            },
+            {
+              label: 'RV12 Preflight Checklist',
+              to: '/rv12Checklist',
             },
           ],
         },

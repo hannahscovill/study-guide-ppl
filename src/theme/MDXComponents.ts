@@ -2,6 +2,8 @@
 import MDXComponents from '@theme-original/MDXComponents';
 import Quiz from '../components/Quiz/Quix';
 import CoefficientOfLiftCalculation from '../components/CoefficientOfLiftCalc/CoefficientOfLiftCount';
+import FeatureCard from '../components/FeatureCard/FeatureCard';
+import LeftPaddedText from '../components/IntentedText/IndentedText';
 
 export default {
   // Re-use the default mapping
@@ -11,4 +13,6 @@ export default {
 //   Highlight,
 //   Quiz,
   CoefficientOfLiftCalculation,
+  FeatureCard,
+  IndentedText: LeftPaddedText
 };

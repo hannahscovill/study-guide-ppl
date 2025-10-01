@@ -1,3 +1,8 @@
+---
+sidebar_position: 0
+slug: intro
+---
+
 # Twin Oaks Ground School
 
 The following pages are my notes I started when I took PPL Ground school at Twin Oaks, led by CFIs Gabriel Gouaux and Nick Wymetalek.
