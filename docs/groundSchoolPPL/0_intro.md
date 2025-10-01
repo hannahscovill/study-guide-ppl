@@ -2,7 +2,7 @@
 
 The following pages are my notes I started when I took PPL Ground school at Twin Oaks, led by CFIs Gabriel Gouaux and Nick Wymetalek.
 
-## Attending the Next Ground School
+## Upcoming Classes
 
 The ground school focuses on all aspects of the respective licensing, mainly focusing on the oral portion of the checkride working through the ACS line-by-line.
 
