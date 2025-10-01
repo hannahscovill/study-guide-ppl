@@ -4,6 +4,7 @@ import Quiz from '../components/Quiz/Quix';
 import CoefficientOfLiftCalculation from '../components/CoefficientOfLiftCalc/CoefficientOfLiftCount';
 import FeatureCard from '../components/FeatureCard/FeatureCard';
 import LeftPaddedText from '../components/IntentedText/IndentedText';
+import BookClubHero from '../components/BookClubHero/BookClubHero';
 
 export default {
   // Re-use the default mapping
@@ -14,5 +15,6 @@ export default {
 //   Quiz,
   CoefficientOfLiftCalculation,
   FeatureCard,
-  IndentedText: LeftPaddedText
+  IndentedText: LeftPaddedText,
+  BookClubHero
 };

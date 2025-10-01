@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Private Pilot Ground Study',
+  title: 'Pilot Ground Study',
   tagline: 'PPL Ground',
   favicon: 'img/tiny-plane.png',
 
@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Hannah Scovill', // Usually your GitHub org/user name.
-  projectName: 'Private Pilot Study Guide', // Usually your repo name.
+  projectName: 'Pilot Study Guide', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -86,15 +86,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Resources',
-          items: [
-            {
-              label: 'FAA Aviation Handbooks & Manuals',
-              to: 'https://www.faa.gov/regulations_policies/handbooks_manuals',
-            }
-          ],
-        },
+        // {
+        //   title: 'Resources',
+        //   items: [
+        //     {
+        //       label: 'FAA Aviation Handbooks & Manuals',
+        //       to: 'https://www.faa.gov/regulations_policies/handbooks_manuals',
+        //     },
+        //   ],
+        // },
         {
           title: 'Ground School Resources & Syllabi',
           items: [
@@ -120,12 +120,16 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/hannahscovill/study-guide-ppl',
+              label: 'FAA Aviation Handbooks & Manuals',
+              to: 'https://www.faa.gov/regulations_policies/handbooks_manuals',
             },
             {
               label: 'Join the book club!',
               to: '/bookClub',
+            },
+            {
+              label: 'Acronyms & Initialisms',
+              to: '/acronyms',
             },
             {
               label: 'Class Directory',
@@ -134,6 +138,10 @@ const config: Config = {
             {
               label: 'RV12 Preflight Checklist',
               to: '/rv12Checklist',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/hannahscovill/study-guide-ppl',
             },
           ],
         },
