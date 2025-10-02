@@ -21,23 +21,29 @@ The club meets weekly on Wednesday nights from 6-8pm PT in person at [Twin Oaks 
 - Don't worry if you didn't quite finish the reading.
 - Each chapter seems somewhat/fairly self-contained. It would be great to have you join even if you're finding us after we've started.
 
-### Proposed Meeting Format
+### Meeting Format (Evolving)
 
-- Quick intros, i.e.
+- Greetings, fellow students!
   - What brings you here?
   - Where are you in your aviation journey?
   - What would you like to get out of the group?
-- From the reading
+- Getting down to business
+  - The reading
+    - Agenda items collected ahead of the meeting
+    - Speed run the chapters - look at the heading titles to jog any more topics back into memory
     - Discuss key takeaways, questions, etc.
     - Share notes
-- Did anyone come across something aviation related and cool?
-- What's on your flight training docket? Any aviation events coming up?
+  - Sporty's Quiz as a group on the topics related to the reading
 
+- Time permitting:
+  - Did anyone come across something aviation related and cool?
+  - What's on your flight training docket?
+  - Any aviation events coming up?
 
-RSVP form not loading? Follow [this link](https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?usp=header)
 
 ### Join Us!
 
+RSVP form not loading? Follow [this link](https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?usp=header)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?embedded=true" width="640" height="991" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
