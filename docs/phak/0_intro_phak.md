@@ -23,7 +23,7 @@ The club meets weekly on Wednesday nights from 6-8pm PT in person at [Twin Oaks 
 
 ### Meeting Format (Evolving)
 
-- Greetings, fellow students!
+- Intro & check-in
   - What brings you here?
   - Where are you in your aviation journey?
   - What would you like to get out of the group?
