@@ -11,7 +11,7 @@ function handler(event) {
         request.uri += '/index.html';
     }
 
-    if (uri === '/bookClub') {
+    if (uri === '/bookClub' || uri === '/bookClub/') {
         const response = {
             statusCode: 301, // Use 301 for permanent redirect, 302 for temporary
             statusDescription: 'Moved With Conviction',
