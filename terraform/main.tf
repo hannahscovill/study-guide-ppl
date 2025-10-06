@@ -12,7 +12,7 @@ provider "aws" {
 
 resource "aws_cloudfront_function" "serve_index_files" {
   name    = "skybound-redirects"
-  runtime = "cloudfront-js-1.0"
+  runtime = "cloudfront-js-2.0"
   comment = "managed by terraform"
   publish = true
   code    = file("redirect.js")
