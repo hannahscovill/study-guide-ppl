@@ -6,7 +6,7 @@ sidebar_position: 1
 
 [Chapter 1](https://www.faa.gov/sites/faa.gov/files/03_phak_ch1.pdf)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cRKkSuSxsMQ?si=hmorJRa7X3Dv8eAg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cRKkSuSxsMQ?si=hmorJRa7X3Dv8eAg" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Advisory Circulars (ACs)
 
@@ -24,3 +24,9 @@ The [Practical Test Standards](https://www.faa.gov/training_testing/testing/test
 
 The Sport Pilot practical test uses PTS and PPL uses ACS
 
+:::note[Question]
+
+Why does the 
+Why are the Sport Pilot Flight Instructor Rating combined in the same PTS..?
+
+:::
