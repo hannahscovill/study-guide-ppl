@@ -13,8 +13,8 @@ function handler(event) {
 
     if (uri === '/bookClub') {
         const response = {
-            statusCode: 302, // Use 301 for permanent redirect, 302 for temporary
-            statusDescription: 'Moved Unassertively',
+            statusCode: 301, // Use 301 for permanent redirect, 302 for temporary
+            statusDescription: 'Moved With Conviction',
             headers: {
                 'location': { 'value': '/docs/phak/intro' }
             }
