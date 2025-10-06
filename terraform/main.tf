@@ -11,7 +11,7 @@ provider "aws" {
 }
 
 resource "aws_cloudfront_function" "serve_index_files" {
-  name    = "redirect-to-index-files"
+  name    = "skybound-redirects"
   runtime = "cloudfront-js-1.0"
   comment = "managed by terraform"
   publish = true

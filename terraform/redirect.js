@@ -11,5 +11,16 @@ function handler(event) {
         request.uri += '/index.html';
     }
 
+    if (uri === '/bookClub') {
+        const response = {
+            statusCode: 302, // Use 301 for permanent redirect, 302 for temporary
+            statusDescription: 'Moved Unassertively',
+            headers: {
+                'location': { 'value': '/docs/phak/intro' }
+            }
+        };
+        return response;
+    }
+
     return request;
 }

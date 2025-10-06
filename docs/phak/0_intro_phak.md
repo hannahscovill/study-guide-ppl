@@ -5,14 +5,18 @@ slug: intro
 
 # Book Club
 
+[RSVP](#join-us)
+
+![Book Club Flyer, blue background with two drawn airplanes and their wingtip vorticies drawn. This flyer says the book club is on Wednesday nights October 1 through December 3 at Twin Oaks Airpark and will cover 1 or 2 chapters each week](../../src/pages/short.png)
+
 Our student-led gorup is covering The Pilot's Handbook of Aeronautical Knowledge (available for free on the [FAA's Website](https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak)). The PDFs for each indivudual chapter and the audiobook are linked on each page.
 
 The pages that follow are intended to be somewhere in between a quick reference, study guide, supplemental guide and Cliff's Notes for the book.
 
-<a href="https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak" style={{"display":"block","text-align":"center"}}><img src="https://m.media-amazon.com/images/I/814LecPFGAL._UF1000,1000_QL80_.jpg" alt="HTML tutorial" width='300' /></a>
-
 ## Tips for Reading
 It's pretty dense reading! Taking notes will probably help a lot. This [Acronyms & Initialisms](/acronyms) page helped me.
+
+I also found it helpful to listen to a podcast after the reading to hear the subject matter more colloquially. The [Flying New Guy](https://www.youtube.com/playlist?list=PLG_hxiQ49vKXnmtK4oh-o5j4Fg5Dbp_Dr) from Pilot Institute has been great for this.
 
 ## Book Club Meetings
 

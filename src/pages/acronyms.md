@@ -8,8 +8,6 @@ I sometimes got lost while reading the PHAK and had to go back several pages to 
 
 Related: The PHAK also has a [glossary](https://www.faa.gov/sites/faa.gov/files/21_phak_glossary.pdf) of terms. It doesn't have all the acronyms and initialisms though
 
-Missing one? [Open an issue](https://github.com/hannahscovill/study-guide-ppl/issues/new) in the repository. [Pull Requests](https://github.com/hannahscovill/study-guide-ppl/pulls) (PRs) welcomed.
-
 |||
 |-|-|
 | AC | Advisory Circular |
@@ -36,8 +34,8 @@ Missing one? [Open an issue](https://github.com/hannahscovill/study-guide-ppl/is
 | CG | Center of Gravity |
 | CL | Center of Lift |
 | AOA | Angle of Attack |
-| AOPA | Aircraft Owners and Pilots
-Association |
+| AOPA | Aircraft Owners and Pilots Association |
 | SDP | Standard Datum Plane |
-|  |  |
-|  |  |
+<!-- |  |  | -->
+
+Missing one? [Open an issue](https://github.com/hannahscovill/study-guide-ppl/issues/new) in the repository. [Pull Requests](https://github.com/hannahscovill/study-guide-ppl/pulls) (PRs) welcomed.
