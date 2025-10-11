@@ -42,4 +42,10 @@ Control
 - Attitude Indicator
 - Manifold pressure guage
 - Tachometer
-- 
+
+:::note[Question]
+
+Why do each of these fall into each category..?
+Not enough info online
+
+:::

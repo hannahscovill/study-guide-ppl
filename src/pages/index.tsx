@@ -5,7 +5,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
-import Li from '@theme/MDXComponents/Li'
 
 import styles from './index.module.css';
 import FeatureCard from '../components/FeatureCard/FeatureCard';
@@ -34,13 +33,13 @@ function HomepageHeader() {
 const AboutTheHost = () => {
   return (
     <FeatureCard
+      style={{ maxWidth: '600px' }}
       title="About the Maintainer"
       subtitle="Hi! I'm Hannah."
-      // body='hello'
       body={<>
         <p>
-          I'm a student at Twin Oaks (7S3) studying for my SPL written exam.<br/><br/>
-          I work as Software Engineer at Nike and teach CrossFit 1-2 nights/week.<br/><br/>
+          I'm a student at Twin Oaks (7S3) studying for my SPL written exam.<br /><br />
+          I work as Software Engineer at Nike and teach CrossFit 1-2 nights/week.<br /><br />
           I'm excited to find community in aviation!
         </p>
       </>}
