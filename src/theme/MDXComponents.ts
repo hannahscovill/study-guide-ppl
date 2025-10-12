@@ -6,6 +6,7 @@ import FeatureCard from '../components/FeatureCard/FeatureCard';
 import LeftPaddedText from '../components/IntentedText/IndentedText';
 import BookClubHero from '../components/BookClubHero/BookClubHero';
 import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
+import InvisibilityCloak from '../components/InvisibilityCloak/InvisibilityCloak';
 
 export default {
   // Re-use the default mapping
@@ -18,5 +19,6 @@ export default {
   FeatureCard,
   IndentedText: LeftPaddedText,
   BookClubHero,
-  VideoPlayer
+  VideoPlayer,
+  InvisibilityCloak
 };

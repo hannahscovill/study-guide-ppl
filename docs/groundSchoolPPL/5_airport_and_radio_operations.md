@@ -1,6 +1,10 @@
 ---
 sidebar_position: 5
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
+import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Airport and Radio Operations
 

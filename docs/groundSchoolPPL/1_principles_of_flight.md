@@ -1,24 +1,25 @@
 ---
 sidebar_position: 1
 ---
-
-import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
+import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Principles of Flight
 
-{process.env.NODE_ENV === "development" ? <Tabs>
-  <TabItem value="spring2025" label="Spring 2025">
-    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4" />
+<InvisibilityCloak>
+	<Tabs>
+		<TabItem value="spring2025" label="Spring 2025">
+		<VideoPlayer src="/video/1_principles_of_flight_spring_2025/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
 
-	At about 01:07:00, Gabe mentions a whip stall. In case you were wondering what that is, it's when you pitch directly up and the entire wing stalls instead of just a partial stall. <br/><br/>
+		At about 01:07:00, Gabe mentions a whip stall. In case you were wondering what that is, it's when you pitch directly up and the entire wing stalls instead of just a partial stall. <br/><br/>
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameBorder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameBorder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
-  </TabItem>
-
-</Tabs> : null}
+		</TabItem>
+	</Tabs>
+</InvisibilityCloak>
 
 ## Parts of an airfoil
 ![airfoil cross section diagram](https://web.eng.fiu.edu/allstar/images/pic3-1.gif)
@@ -51,12 +52,16 @@ V: Airspeed
 
 ## Forces in Flight
 
+There are four main forces in flight. Lift opposes weight and thrust opposes drag.
+
 <img width='250px' alt='thrust is forward, drag is backward, lift is upward, weight is downward' src='https://howthingsfly.si.edu/themes/howthingsfly/images/dltw.png'/>
 
-thrust is only greater than drag when accelerating.
+
+In steady flight, when summed, each opposing force equals zero. This includes steady climbs. It's when there's a change in velocity like a deceleration, increase in climb, decrease in climb, acceleration, etc that the forces will be unequal.
+
 
 ### Thrust
-- Powered aircraft creates thrust from the propellers
+- Powered aircraft creates thrust from engines turning the propellers
 - Gliders generate thrust by pointing the nose down
 
 ### Drag
@@ -125,27 +130,64 @@ Why do big aircraft have big spoilers instead of correcting more with a rudder
 Stalls happen in the critical angle of attack, when inadequate lift is being generated. Stall can happen at any airspeed.
 
 ## Turning Tendencies
-Forces that create a yaw
-### Spiraling slipstream
-	- The faster you get, the lower frequency the coil
-### Torque
-	- When the propeller turns, because of equal and opposite forces, it's trying to turn the airplane in the opposite direction
-	- Does that cause enough unequal stress that they have to reinforce?
-### P Factor
-	- Higher at slow airspeed and high AOA
-	- Lower at high
-	- One side of the propeller is doing more work than the other side of the propeller 
-### Gyroscopic procession
-	- it's only when you're lifting the nose up or pushing it down
-	- The propeller is a gyroscope - it 
-	- If you push on a gyroscope, the pressure of the push isn't in full effect until a 90 degree turn has happened
+Forces that cause the airplane to yaw
+This is why rudders have trim tabs that are always bent to the right
+![alt text](image-2.png)
 
+### Spiraling slipstream
+- Turns the airplane to the **left**
+- The slinky around the airplane pushes the vertical stabilizer 
+- The faster you get, the lower frequency the coil
+![alt text](image.png)
+
+
+### Torque
+- Turns the airplane to the **left**
+  - You turn left because of the bank this one causes
+- When the propeller turns, because of equal and opposite forces, it's trying to turn the airplane in the opposite direction
+![alt text](image-1.png)
+
+### P-Factor
+- Turns the airplane to the **left**
+- Each propeller has their own AOA. In level flight, each propeller has the same AOA. When pitching upward, the AOA is different for each propeller. One AOA increases and the other decreases, meaning one propeller is taking "bigger bites" out of the air and doing more work. This imbalance yaws the plane to the side with the greater AOA.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/zwd9I_fIVZc?si=ER6Ky8zqisQ3zVeU" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+Takeaways:
+- One side of the propeller is doing more work than the other side of the propeller 
+- Higher at slow airspeed and high AOA
+- Lower at high AOA
+
+### Gyroscopic procession
+- When pitching up, turns the airplane to the **right**. When pitching down, turns the airplane to the **left**.
+- If you push on a gyroscope, the pressure of the push isn't in full effect until a 90 degree turn has happened.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/n5bKzBZ7XuM?si=u2gfO6_50KgtE_pR&amp;start=42" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+**Video Summary:** In other words, if you have an orbiting object and you push up on it at a certain point and down on it on the opposite side of the orbit, the orbit rotates on the axis drawn between the two pressure points. This axis is 90° from if there was no spinning and the orbit were a motionless solid object.
 
 ## Wingtip Vortices
-- High pressure air escapes to the top of the wing
+- High pressure air below the wing escapes to the top of the wing
+- The high-pressure air under the wing travels outward, away from the fuselage
 
-## Wake Turbulence
-- Wingtip vortices - a much larger airplane can create a very dangerous wake
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/duSZ1hyK7sY?si=660sRC0S0LtpLk7D" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+
+:::info
+
+There's a test question that got me every time that asks what direction wingtip vorticies spin. Yes, the top of the vortex spins inward toward the plane, but the question is asking about how they start, which is air moving outward, away from the plane.
+
+> Vortices are generated from the moment an aircraft leaves the ground (until it touches down), since trailing vortices are the byproduct of wing lift. [Figure 14-46] The vortex circulation is outward, upward, and around the wingtips when viewed from either ahead or behind the aircraft.
+
+[PHAK Chapter 14: Airport Operations](https://www.faa.gov/sites/faa.gov/files/16_phak_ch14_0.pdf)
+
+See `Wake Turbulence > Vortex Behavior` on page 14-27
+
+:::
+
+### Wake Turbulence
+- Wingtip vortices are dangerous when created by a much larger airplane can create a very dangerous wake
+- The worst when a plane is heavy, clean and slow
+- Sink about 100ft/minute
 - What's the worst for wake turbulence
 	- Right (or left?) quartering tailwind
 		- Why right instead of tailwind?
@@ -173,6 +215,8 @@ Low wing airplanes can land more smoothly because they enter ground effect soone
 	- Use aileron 
 - Side Slip
 	- For landing in crosswind
+
+## Load Factor
 
 
 # Recap
@@ -264,7 +308,8 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 <details>
 	<summary><strong>6. What is adverse yaw?</strong></summary>
 
-	Yaw created by the induced drag from the lift differential between the high and low wing in a turn
+	Yaw created by the induced drag from the lift differential between the high and low wing in a turn.
+	A bank to the right creates yaw to the left which requires right rudder to coordinate
 </details>
 <br/>
 
@@ -285,7 +330,14 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 <details>
 	<summary><strong>9. Name the turning tendencies and describe one of them</strong></summary>
 
-	P-factor: The downward moving propeller blade (right) at high angles of attack creates more thrust and lift causing a yawing and rolling moment to the left. Vice versa at descent angles, therefore requiring left rudder to compensate for the right turning moment.
+	| Turning Tendency | Description | Effect |
+	|-----------------|-------------|---------|
+	| P-factor | The downward moving propeller blade (right) at high angles of attack creates more thrust and lift | Turns the place to the **left** |
+	| Torque | Equal and opposite reaction to propeller rotation | Turns airplane to the **left** due to banking |
+	| Spiraling Slipstream | The slinky-like effect of air wrapping around the airplane pushes the vertical stabilizer right | Turns airplane to the **left** |
+	| Gyroscopic Precession | Force applied to spinning propeller manifests 90° later in rotation | Turns airplane **right** when pitching up, **left** when pitching down |
+
+	All assumes a propeller that turns clockwise as viewed from the cockpit
 </details>
 <br/>
 <details>
@@ -307,3 +359,17 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 
 	The ground disrupts the wingtip vortices that cause induced drag, therefore making induced drag lower and allowing us to "float". Ground effect is ½ a wingspan from the ground and strongest the closer you get
 </details>
+
+
+<InvisibilityCloak>
+
+### Class Quiz Discussion
+
+<Tabs>
+  <TabItem value="spring2025" label="Spring 2025">
+    <VideoPlayer src="/video/2_engines_electrical_systems_spring_2025/GMT20250430-010349_Recording_1760x900.mp4#t=0,1182" />
+  </TabItem>
+</Tabs>
+
+
+</InvisibilityCloak>

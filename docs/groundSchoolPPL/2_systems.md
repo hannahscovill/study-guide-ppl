@@ -1,14 +1,20 @@
 ---
 sidebar_position: 2
 ---
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
+import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
-# Engines & Electrical System
+# Engines & Electrical Systems
 
-{process.env.NODE_ENV === "development" ? <Tabs>
-  <TabItem value="spring2025" label="Spring 2025">
-    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
-  </TabItem>
-</Tabs> : null}
+<InvisibilityCloak>
+    <Tabs>
+        <TabItem value="spring2025" label="Spring 2025">
+            <VideoPlayer src="/video/2_engines_electrical_systems_spring_2025/GMT20250430-010349_Recording_1760x900.mp4#t=1235" />
+        </TabItem>
+    </Tabs>
+</InvisibilityCloak>
 
 ## Primary Flight Controls
 
