@@ -155,4 +155,13 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 };
 
+if (process.env.NODE_ENV === 'development') {
+  (config.themeConfig as Preset.ThemeConfig).navbar.items.push({
+      type: 'docSidebar',
+      sidebarId: 'localOnly',
+      position: 'left',
+      label: 'Local',
+    })
+}
+
 export default config;

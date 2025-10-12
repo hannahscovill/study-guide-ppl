@@ -9,7 +9,7 @@ The following pages are my notes I started when I took PPL Ground school at Twin
 
 ## Upcoming Classes
 
-The ground school focuses on all aspects of the respective licensing, mainly focusing on the oral portion of the checkride working through the ACS line-by-line.
+The ground school focuses on all aspects of the respective licensing, mainly focusing on the oral portion of the checkride working through the ACS line-by-line. You can review the [syllabus](../../static/private-pilot-ground-school-5.pdf) used for class.
 
 The upcoming PPL ground school runs for ten lessons, Tuesday evenings from 6–8pm PT, beginning October 21st. The course spans eleven weeks to allow a break for Thanksgiving. The final class is a group mock checkride.
 

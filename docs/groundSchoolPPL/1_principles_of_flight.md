@@ -4,6 +4,13 @@ sidebar_position: 1
 
 # Principles of Flight
 
+
+<video width="320" height="240">
+  <source src="../../static/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4" type="video/mp4" />
+  <!-- <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag. -->
+</video>
+
 ## Parts of an airfoil
 ![airfoil cross section diagram](https://web.eng.fiu.edu/allstar/images/pic3-1.gif)
 
