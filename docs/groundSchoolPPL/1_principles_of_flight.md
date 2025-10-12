@@ -3,8 +3,10 @@ sidebar_position: 1
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
+import ClipboardShortText from '@site/src/components/ClipboardShortText/ClipboardShortText';
 import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
 import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
+import ZoomLink from '@site/src/components/ZoomLink/ZoomLink';
 
 # Principles of Flight
 
@@ -13,11 +15,18 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 		<TabItem value="spring2025" label="Spring 2025">
 		<VideoPlayer src="/video/1_principles_of_flight_spring_2025/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
 
+		<ZoomLink url="https://us06web.zoom.us/rec/share/YzZURbv-DcGAUBDA2D_l4Pcm7huueaKcY5p3qc_f4Deh9edWkUD1sppsv3sTZ5qT.yUnwAxHH80RFdh6p" passcode="8*xA4&Rr"/>
+		<br/>
+
 		At about 01:07:00, Gabe mentions a whip stall. In case you were wondering what that is, it's when you pitch directly up and the entire wing stalls instead of just a partial stall. <br/><br/>
 
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameBorder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 		</TabItem>
+        <TabItem value="summer2025" label="Summer 2025">
+            Important! I think this video might be for the wrong topic
+			<ZoomLink url="https://us06web.zoom.us/rec/share/c1VXiz4AA_0KMND4zDIN0nfjyC8tqFVo56SPecTQ0Ws1rB-JXWGMiIiYsq0krPLq.mrFFJtJaU62p0lat" passcode="#+6&2Lw=" />
+        </TabItem>
 	</Tabs>
 </InvisibilityCloak>
 
@@ -363,7 +372,8 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 
 <InvisibilityCloak>
 
-### Class Quiz Discussion
+<!-- Commented out because the build still links this in the TOC even though it's in the invisibiltity cloak. I'd still like to add this at some point though -->
+<!-- ### Class Quiz Discussion -->
 
 <Tabs>
   <TabItem value="spring2025" label="Spring 2025">

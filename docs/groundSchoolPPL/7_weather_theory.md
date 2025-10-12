@@ -12,9 +12,12 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
     <Tabs>
         <TabItem value="spring2025" label="Spring 2025">
             <VideoPlayer src="/video/7_weather_spring_2025/GMT20250611-010734_Recording_1760x900.mp4#t=1350" />
+            <ZoomLink url="https://us06web.zoom.us/rec/share/HmhuhWU946dMscKqyAdBOsqUX-0QZTlY0ZOyFDSpM6HwNGIMlCv0EYrpkkW9_LZK.Xt7_Ew8FHNQSv9Z9" passcode="gK.9L@t4" />
         </TabItem>
-        <!-- <TabItem value="summer2025" label="Summer 2025">
-        </TabItem> -->
+        <TabItem value="summer2025" label="Summer 2025">
+            Important! I think this video might be for the wrong topic
+            <ZoomLink url="https://us06web.zoom.us/rec/share/91KIHKOpq_KVQEjwTViF2KrnQVQTs2Jh1RmWIPuqh5p7_lu01_svoQaUuA1INlg8.fPaZD3CEroKurgBK" passcode="w29^8Dbf" />
+        </TabItem>
     </Tabs>
 </InvisibilityCloak>
 

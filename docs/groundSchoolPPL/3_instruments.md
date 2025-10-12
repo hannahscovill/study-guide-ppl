@@ -12,6 +12,7 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
     <Tabs>
         <TabItem value="summer2025" label="Summer 2025">
             <VideoPlayer src="/video/3_flight_instruments_summer_2025/GMT20250730-005954_Recording_1760x900.mp4#t=1600" />
+            <ZoomLink url="https://us06web.zoom.us/rec/share/oH8C4KnxDuajGjbIeL9cnRIlL6U0h9-t7ITzoqSUFpUdvZy4hx7P4OCxDV4NZDVU.T_f5Eo3tOYAeDiB2" passcode="!83#S#l!" />
         </TabItem>
     </Tabs>
 </InvisibilityCloak>

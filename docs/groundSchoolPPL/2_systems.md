@@ -12,6 +12,11 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
     <Tabs>
         <TabItem value="spring2025" label="Spring 2025">
             <VideoPlayer src="/video/2_engines_electrical_systems_spring_2025/GMT20250430-010349_Recording_1760x900.mp4#t=1235" />
+        <ZoomLink url="https://us06web.zoom.us/rec/share/hSYd900TKmmia5uNVeIFz7q86R2_PcvLjFL0-Cj_y8zDb_-DHECGjFjnpFqo-wYL.wMM4ddAh31QrHrDq" passcode="Y%2..T4E" />
+        </TabItem>
+        <TabItem value="summer2025" label="Summer 2025">
+            Important! I think this video might be for the wrong topic
+            <ZoomLink url="https://us06web.zoom.us/rec/share/sZYs0XcM5_zDvTIkK2ngXiWTZtYSQCDwcyPW2dDJmrf2pbyCbHoJ-xvZWPFwDLQ.Zw4qq8ZXSSed_DI5" passcode="*bTMt.2g" />
         </TabItem>
     </Tabs>
 </InvisibilityCloak>
@@ -28,6 +33,7 @@ Kicks the tail up or down
 
 ### Rudder
 For adverse yaw
+![alt text](image-3.png)
 
 ## Secondary Flight Controls
 
@@ -41,7 +47,8 @@ If you want the elevator down, the trim tab will move up
 
 
 ### Flaps
-This slide is tiny
+Leading edge (Kreuger) flaps and trailing
+edge (Fowler) flaps,
 
 Basic section
 Plain flaps (RV)
@@ -49,23 +56,18 @@ Split flap
 Slotted flowler flap
 Slotted flap
 
-
 ### Spoilers
+Called spoilers because they "spoil" the airflow
 To counteract adverse yaw
 
 ---
-
-## Propeller
-It looks twisted because needs to take more of a "bite" from the air closer to the nose because it's moving more slowly
-
-The faster the edge of the propeller is traveling, the more drag it's producing
-Big planes add blades instead of longer propellers because the edges approach the speed of sound and get much less efficient
 
 ## Powerplant
 Engine!!
 All the Cesnas at Twin Oaks:
 - 4 cylander
 - horizontally opposed
+  - creates better balanced forces
 - naturally aspirated - breathing natrual air, (not spooled, more compressed air)
 - air cooled - fins with more surface area for the air to naturally cool it down
 
@@ -76,16 +78,42 @@ Combusion
 Exhaust
 
 ### Detonation and Preignition
-Rather than combusting in the powerstroke, it's just exploding (during the compression stroke) (because the piston isn't moving)
+**Detonation** -Rather than combusting in the powerstroke, it's just exploding (during the compression stroke) (because the piston isn't moving)
 
-Preignition - the spark plugs light the fuel on the intake cycle
+Causes include:
+- Fuel grade lower than needed
+- Engine overheating
 
+Watch cylinder head temperatures (CHTs) 
 
-### Induction System
-How does the air and the fuel get into the engine?
+**Preignition** - the spark plugs light the fuel prematurely or on the intake cycle. This causes opposing forces out of cycle, e.g. the two sides of a horizontally opposed engine pressing on the connecting rods and other engine components
 
-#### Carburated engines
-Venturi draws air and fuel and atomizes it together
+Causes include:
+- Cracked spark plug tip
+- burned exhaust valve
+- "anything that can act as a glow plug to ignite the charge prematurely"
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+Is there a better spot to talk about the propeller? It feels a little out of place here
+
+:::
+</InvisibilityCloak>
+
+## Propeller
+Twisted because needs to take more of a "bite" from the air closer to the nose because it's moving more slowly
+
+The faster the edge of the propeller is traveling, the more drag it's producing
+Big planes add blades instead of longer propellers because the edges approach the speed of sound and get much less efficient
+
+TIL: You always increase drag with speed, but the drag coefficient drops after you break the sound barrier. [NASA: Drag Coefficient](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/dragco.html)
+
+## Induction System
+How does the air and the fuel gets into the engine
+
+### Carburated engines
+Venturi draws air and fuel and <TooltipInlineText text="atomizes the fuel" tooltip="Breaks fuel into a fine mist or spray of tiny droplets" /> together.
 There's a needle that 
 
 Do you still have induction on fuel injected engines
@@ -98,7 +126,7 @@ Ice can form in
 
 
 
-#### Fuel Injected engines
+### Fuel Injected engines
 You have an electrical system that's keeping the same ratio of fuel to air
 
 The injector does the atomizing of the fuel electronically
@@ -106,7 +134,7 @@ They can have a vapor lock
 
 RVs have a FADAK ??
 
-### Ignition Sysyem
+## Ignition Sysyem
 Magneto is a self contained (from other electrical systems) magnetic field
 There's a ball that spins around in it
 There's a spring in it - when you start, it uses
@@ -115,7 +143,7 @@ Each magneto connects to one of the spark plugs in each cylanger
 
 If a magneto failed, you'd not really be able to climb. You'd probably drop around 4000 RPM
 
-### Oil System
+## Oil System
 
 Wet sump system
 There's oil sitting at the bottom of the crankcase, the crankshaft dips into the pool then flings it all over the engine
@@ -127,12 +155,12 @@ Oil is stored in a sperate resivor and pumped through the engine
 Scavange pump
 Oil cooler
 
-### Cooling
+## Cooling
 RV is air and liquid cooled
 
 Shock cooling is a thing - causes cracks in the engine
 
-### Exhaust
+## Exhaust
 The hot air has to go somewhere or it can't intake more air
 
 MANIFOLD, NOT SHROUD
@@ -140,10 +168,10 @@ Goes trhough a heat shroud  - it's a cabin and carburator heater. If there's a c
 
 Exhaust gas is over 1000 degrees
 
-### Starter System
+## Starter System
 You have to turn on the master switch (the battery) before you can start the engine
 
-### Electrical System
+## Electrical System
 The electrical system digram is in the POH
 
 Buses are like power strips that power multiple components coming from it.

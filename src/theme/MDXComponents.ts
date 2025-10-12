@@ -7,6 +7,9 @@ import LeftPaddedText from '../components/IntentedText/IndentedText';
 import BookClubHero from '../components/BookClubHero/BookClubHero';
 import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
 import InvisibilityCloak from '../components/InvisibilityCloak/InvisibilityCloak';
+import ClipboardShortText from '../components/ClipboardShortText/ClipboardShortText';
+import ZoomLink from '../components/ZoomLink/ZoomLink';
+import TooltipInlineText from '../components/TooltipInlineText/TooltipInlineText';
 
 export default {
   // Re-use the default mapping
@@ -20,5 +23,8 @@ export default {
   IndentedText: LeftPaddedText,
   BookClubHero,
   VideoPlayer,
-  InvisibilityCloak
+  InvisibilityCloak,
+  ClipboardShortText,
+  ZoomLink,
+  TooltipInlineText
 };

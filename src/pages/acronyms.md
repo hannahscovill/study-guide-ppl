@@ -38,6 +38,7 @@ Related: The PHAK also has a [glossary](https://www.faa.gov/sites/faa.gov/files/
 | SDP | Standard Datum Plane |
 | MAC | Mean Aerodynamic Chord |
 | GAMA | General Aviation Manufacturers Association |
+| CHT | Cylinder Head Temperature |
 <!-- |  |  | -->
 
 Missing one? [Open an issue](https://github.com/hannahscovill/study-guide-ppl/issues/new) in the repository. [Pull Requests](https://github.com/hannahscovill/study-guide-ppl/pulls) (PRs) welcomed.
