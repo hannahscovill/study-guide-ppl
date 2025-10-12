@@ -9,7 +9,6 @@ import Heading from '@theme/Heading';
 import styles from './index.module.css';
 import FeatureCard from '../components/FeatureCard/FeatureCard';
 import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
-import ReactPlayer from 'react-player'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();

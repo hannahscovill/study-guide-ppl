@@ -6,7 +6,6 @@ import FeatureCard from '../components/FeatureCard/FeatureCard';
 import LeftPaddedText from '../components/IntentedText/IndentedText';
 import BookClubHero from '../components/BookClubHero/BookClubHero';
 import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
-import ReactPlayer from 'react-player';
 
 export default {
   // Re-use the default mapping
@@ -19,6 +18,5 @@ export default {
   FeatureCard,
   IndentedText: LeftPaddedText,
   BookClubHero,
-  VideoPlayer,
-  ReactPlayer
+  VideoPlayer
 };

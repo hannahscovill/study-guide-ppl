@@ -6,7 +6,7 @@ sidebar_position: 2
 
 [Chapter 2](https://www.faa.gov/sites/faa.gov/files/04_phak_ch2.pdf)
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dtdoJgfUvuw?si=VGznY_pDR8cdVxyW" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dtdoJgfUvuw?si=VGznY_pDR8cdVxyW" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture; web-share; fullscreen" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 
 ## Steps for good decision-making:

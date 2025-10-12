@@ -151,7 +151,7 @@ The club meets weekly on Wednesday nights from 6-8pm PT in person at [Twin Oaks 
 
 RSVP form not loading? Follow [this link](https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?usp=header)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?embedded=true" width="640" height="991" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSde-qbkhsoqMOXi75mKPY6hRTPcMp9D_8cKQWo2Hbti3yaSSQ/viewform?embedded=true" width="640" height="991" frameBorder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
 
 <!-- <BookClubHero

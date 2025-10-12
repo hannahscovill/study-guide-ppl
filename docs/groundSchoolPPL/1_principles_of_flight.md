@@ -10,11 +10,11 @@ import TabItem from '@theme/TabItem';
 
 {process.env.NODE_ENV === "development" ? <Tabs>
   <TabItem value="spring2025" label="Spring 2025">
-    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
-	
+    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4" />
+
 	At about 01:07:00, Gabe mentions a whip stall. In case you were wondering what that is, it's when you pitch directly up and the entire wing stalls instead of just a partial stall. <br/><br/>
 
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameBorder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
   </TabItem>
 

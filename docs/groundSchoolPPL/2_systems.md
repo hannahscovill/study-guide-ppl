@@ -4,6 +4,12 @@ sidebar_position: 2
 
 # Engines & Electrical System
 
+{process.env.NODE_ENV === "development" ? <Tabs>
+  <TabItem value="spring2025" label="Spring 2025">
+    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
+  </TabItem>
+</Tabs> : null}
+
 ## Primary Flight Controls
 
 How the airplane controls the movement around the different axis
