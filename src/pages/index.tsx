@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { useRef, type ReactNode } from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,6 +8,8 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 import FeatureCard from '../components/FeatureCard/FeatureCard';
+import VideoPlayer from '../components/VideoPlayer/VideoPlayer';
+import ReactPlayer from 'react-player'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -51,6 +53,7 @@ const AboutTheHost = () => {
 
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
+  // const playerRef = useRef();
   return (
     <Layout
       title={`${siteConfig.title}`}

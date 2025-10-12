@@ -2,14 +2,23 @@
 sidebar_position: 1
 ---
 
+import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # Principles of Flight
 
+{process.env.NODE_ENV === "development" ? <Tabs>
+  <TabItem value="spring2025" label="Spring 2025">
+    <VideoPlayer src="/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4#t=600" />
+	
+	At about 01:07:00, Gabe mentions a whip stall. In case you were wondering what that is, it's when you pitch directly up and the entire wing stalls instead of just a partial stall. <br/><br/>
 
-<video width="320" height="240">
-  <source src="../../static/video/1_principles_of_flight_spring/GMT20250416-011025_Recording_1760x900.mp4" type="video/mp4" />
-  <!-- <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag. -->
-</video>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/Ee4PYDOBDNM?si=ud3aGheinSZQ2I9O" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  </TabItem>
+
+</Tabs> : null}
 
 ## Parts of an airfoil
 ![airfoil cross section diagram](https://web.eng.fiu.edu/allstar/images/pic3-1.gif)
@@ -25,7 +34,7 @@ Your browser does not support the video tag. -->
 
 L=CL * SA * .5P * V
 
-<CoefficientOfLiftCalculation/>
+<!-- <CoefficientOfLiftCalculation/> -->
 
 L: Lift
 
