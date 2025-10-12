@@ -170,7 +170,7 @@ Takeaways:
 - High pressure air below the wing escapes to the top of the wing
 - The high-pressure air under the wing travels outward, away from the fuselage
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/duSZ1hyK7sY?si=660sRC0S0LtpLk7D" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/duSZ1hyK7sY?si=660sRC0S0LtpLk7D&amp;start=09" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 :::info
 

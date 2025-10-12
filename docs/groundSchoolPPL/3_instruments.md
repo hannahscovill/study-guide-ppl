@@ -8,6 +8,14 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Flight Instruments
 
+<InvisibilityCloak>
+    <Tabs>
+        <TabItem value="summer2025" label="Summer 2025">
+            <VideoPlayer src="/video/3_flight_instruments_summer_2025/GMT20250730-005954_Recording_1760x900.mp4#t=1600" />
+        </TabItem>
+    </Tabs>
+</InvisibilityCloak>
+
 ## Pitot/Static Instruments
 ### Airspeed Indicator
 

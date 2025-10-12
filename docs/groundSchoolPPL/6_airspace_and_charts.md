@@ -8,6 +8,16 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Airspace and Sectional Charts
 
+<InvisibilityCloak>
+    <Tabs>
+        <TabItem value="spring2025" label="Spring 2025">
+            <VideoPlayer src="/video/6_airspace_charts_spring_2025/GMT20250528-010310_Recording_1760x900.mp4#t=1619" />
+        </TabItem>
+        <!-- <TabItem value="summer2025" label="Summer 2025">
+        </TabItem> -->
+    </Tabs>
+</InvisibilityCloak>
+
 Dimensions, Restrictions, and weather restrictions
 
 ADSB - flight tracking

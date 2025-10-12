@@ -8,6 +8,14 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Airport and Radio Operations
 
+<InvisibilityCloak>
+    <Tabs>
+        <TabItem value="spring2025" label="Spring 2025">
+            <VideoPlayer src="/video/5_airport_operations_spring_2025/GMT20250521-010148_Recording_1744x798.mp4#t=3084" />
+        </TabItem>
+    </Tabs>
+</InvisibilityCloak>
+
 Airport Flash Cards
 
 https://www.faa.gov/airports/runway_safety/resources/flashcards/

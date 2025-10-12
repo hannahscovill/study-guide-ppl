@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 9
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -8,6 +8,15 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Cross-Country Flight Planning
 
+<InvisibilityCloak>
+    <Tabs>
+        <TabItem value="spring2025" label="Spring 2025">
+            <VideoPlayer src="/video/8_xc_planning_spring_2025/GMT20250625-010518_Recording_1760x900.mp4#t=1645" />
+        </TabItem>
+        <!-- <TabItem value="summer2025" label="Summer 2025">
+        </TabItem> -->
+    </Tabs>
+</InvisibilityCloak>
 
 ## Ways of navigating
 
