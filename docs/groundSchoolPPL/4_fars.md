@@ -11,7 +11,7 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 <InvisibilityCloak>
     <Tabs>
         <TabItem value="summer2025" label="Summer 2025">
-            <VideoPlayer src="/video/4_fars_summer_2025/GMT20250806-010042_Recording_1760x900.mp4#t=1600" />
+            <VideoPlayer src="/video/4_fars_summer_2025/GMT20250806-010042_Recording_1760x900.mp4#t=1388" />
         </TabItem>
     </Tabs>
 </InvisibilityCloak>
