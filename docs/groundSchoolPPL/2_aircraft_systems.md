@@ -6,7 +6,7 @@ import TabItem from '@theme/TabItem';
 import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
 import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
-# Engines & Electrical Systems
+# Aircraft Systems
 
 <InvisibilityCloak>
     <Tabs>
@@ -109,16 +109,51 @@ Big planes add blades instead of longer propellers because the edges approach th
 
 TIL: You always increase drag with speed, but the drag coefficient drops after you break the sound barrier. [NASA: Drag Coefficient](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/dragco.html)
 
+### Fixed Pitch
+The simpler of the two types. The propeller blades are fixed at a certain pitch and do not rotate
+
+### Constant Speed
+More complex, the propeller blades can rotate within the spinner in order to take bigger or smaller "bites" of the air, increasing or decreasing the blade's angle of attack. This allows the propeller to spin at lower RPMs while still creating the same amount of force as it would spinning at a higher rate with a lower angle of attack.
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+This lower speed of revolution also creates less drag (right?)
+
+:::
+</InvisibilityCloak>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kCSKhDL0bXM?si=qHVPMbRJ9wVsLn3N&amp;start=6" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Induction System
 How does the air and the fuel gets into the engine
 
+> Mixture ratios span a spectrum from a rich of 6 to 1 to a lean of 18 to 1 depending on combustion chamber design and operating conditions.
+[AOPA](https://www.aopa.org/training-and-safety/students/solo/special/the-fuel-air-mixture)
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+Nick mentions 40% and 60% - sometimes giving actual numbers like that can be confusing without a heads up that they're not real numbers
+
+:::
+</InvisibilityCloak>
+
 ### Carburated engines
-Venturi draws air and fuel and <TooltipInlineText text="atomizes the fuel" tooltip="Breaks fuel into a fine mist or spray of tiny droplets" /> together.
+Venturi draws air and fuel and <TooltipInlineText text="atomizes the fuel together" tooltip="Breaks fuel into a fine mist or spray of tiny droplets" />.
 There's a needle that 
 
-Do you still have induction on fuel injected engines
+Any time you reduce the throttle, you "pull the carb heat out" (turn the heat on) to apply heat on the carb to prevent icing. This decreases performance/RPM because you're spreading out the air going into the fuel/air mixture, reducing the amount of air going into the mixture, making it leaner because the fuel flow is the same.
 
-Any time you reduce the throttle, you "pull the carb heat out" to put heat on the carb to prevent icing
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+What does "pull the carb heat out" mean? Is it pulling the lever out that applies the heat?
+
+:::
+</InvisibilityCloak>
+
+Icing happens because you're accelerating air
 
 Ice can form in
 - the butterfly valve
@@ -126,15 +161,53 @@ Ice can form in
 
 
 
-### Fuel Injected engines
-You have an electrical system that's keeping the same ratio of fuel to air
+### Fuel Injected Engines
+Instead of a carburator (mechanical), you have an electrical system called fuel air control unit (FCU) that's governing the ratio of fuel to air
 
 The injector does the atomizing of the fuel electronically
+They're more eficient
 They can have a vapor lock
 
-RVs have a FADAK ??
+**Full Authority Digital Engine Control (FADEC):**
+
+Full authroity, meaning all control inputs to the engine go through the FADEC and there's no pilot override.
+Electrical systems that allow for override are electronic control units (ECU)s or electronic engine control (EEC)s
+
+RV-12s use a FADEC
+
+They are redundant in case of failure.
+
+:::info
+
+From [Skybrary](https://skybrary.aero/articles/full-authority-digital-engine-control-fadec):
+
+- If a total FADEC failure occurs, the engine fails.
+- Upon total FADEC failure, pilots have no manual controls for engine restart, throttle, or other functions.
+- Single point of failure risk can be mitigated with redundant FADECs (assuming that the failure is a random hardware failure and not the result of a design or manufacturing error, which may cause identical failures in all identical redundant components).
+
+:::
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+Hand-propping apparently does not work on an engine that utilizes a FADEC
+
+There's an Audi engine that is apparently technically a car engine but there's at least one airplane that will try using it
+
+:::
+</InvisibilityCloak>
 
 ## Ignition Sysyem
+2 magnetos for 4 cylinders with 8 spark plugs.
+![alt text](image-4.png)
+
+You need the battery to start but 
+
+Impulse coupling..??
+Magnetic field spins to generate magnetic field
+
+
+
 Magneto is a self contained (from other electrical systems) magnetic field
 There's a ball that spins around in it
 There's a spring in it - when you start, it uses
@@ -219,3 +292,8 @@ You would definitely hear that, right?
 If the engine starts banging, it could be other things, but it would be accomanied by the
 
 Enrich the mixture, lower the rpm, decent to cool the engine
+
+
+## Lesson Supplements
+
+<!-- [The Pros And Cons Of Carbureted vs. Fuel Injected Engines](https://www.boldmethod.com/learn-to-fly/systems/carbureted-vs-fuel-injected-engines-in-your-airplane-and-how-it-works/) -->

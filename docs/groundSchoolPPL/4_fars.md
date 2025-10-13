@@ -154,7 +154,7 @@ Endorsements:
 - Complex
     - Must have all three:
         - retractable landing gear
-        - constant speed propeller - can change it's pitch
+        - constant speed propeller - can change the pitch of each propeller blade
 
 If it has hydraulic flaps
 
