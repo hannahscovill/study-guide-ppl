@@ -10,6 +10,7 @@ import InvisibilityCloak from '../components/InvisibilityCloak/InvisibilityCloak
 import ClipboardShortText from '../components/ClipboardShortText/ClipboardShortText';
 import ZoomLink from '../components/ZoomLink/ZoomLink';
 import TooltipInlineText from '../components/TooltipInlineText/TooltipInlineText';
+import StandardDayTable from '../components/StandardDayTable/StandardDayTable';
 
 export default {
   // Re-use the default mapping
@@ -26,5 +27,6 @@ export default {
   InvisibilityCloak,
   ClipboardShortText,
   ZoomLink,
-  TooltipInlineText
+  TooltipInlineText,
+  StandardDayTable
 };

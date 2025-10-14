@@ -3,8 +3,6 @@ sidebar_position: 3
 ---
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
-import InvisibilityCloak from '@site/src/components/InvisibilityCloak/InvisibilityCloak';
-import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 # Flight Instruments
 
@@ -21,63 +19,67 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 
 ### Altimiter
 
-Has an aneroid wafer stack. Aneroid wafers are flexible metal capsules that are sealed with standard pressure.
+Has an aneroid wafer stack and access to the static port. Aneroid wafers are flexible metal capsules that are sealed with/neutral at standard pressure. When you climb, the altitude is less dense. The static port allows that less dense air to flow into the altimeter's casing, causing the wafer stack to expand because of the difference in pressure in and out of the wafers. The stack is attached to gears that turn the hands on the indicator when the stack moves, giving us our altitude reading.
 
-<table>
-<tbody>
-<tr>
-<td colspan="2"  >Standard Day at Sea Level</td>
-</tr>
-<tr>
-<td>Pressure</td>
-<td>26.92"Hg</td>
-</tr>
-<tr>
-<td>Temperature</td>
-<td>59°F (15°C)</td>
-</tr>
-<tr>
-<td>Altitude above Mean Sea Level</td>
-<td>0</td>
-</tr>
-</tbody>
-</table>
+<StandardDayTable />
 
-, 26.92"Hg, which is the pressure at sea level on a standard day. 
-Anaroid wafer stack has standard pressure, 26.92 sealed into the wafers. expands and contracts
-29.92 standard at sea level
 You lose 1"Hg for every 1000ft of altitude climbed
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L1ml_vIibJc?si=sTZWyogX9ddReeXk&amp;start=155" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Please note these videos mispronounce some things because they seem to be read by a text-to-speech system but the animations and explanation have been helpful
 
 Supplement: The Pilot Institute - [Pressure Altitude vs. Density Altitude: What’s the Difference?](https://pilotinstitute.com/pressure-altitude-vs-density-altitude/)
 
 ### Vertical Airspeed indicator
-Tells you if you're climbing or descending
-Calibrated leak goes into the casing
+Tells you if you're climbing or descending.
+
+Pressure from the static port goes into the diaphragm and the casing. The casing has a claibrated (slower/delayed) leak so the pressure in the casing changes at a slower rate from the diaphragm. The pressure differences in the diaphragm and the casing cause the diaphragm to contract or expand, turning the gears that give us our indication.
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/PM8RxWVWzys?si=Wi8l_xwmdnTf1nmL&amp;start=26" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Please note these videos mispronounce some things because they seem to be read by a text-to-speech system but the animations and explanation have been helpful
 
 ### Airspeed Indicator
-Tries to figure out just the ram air pressure
+Tells you what just the ram air pressure from the <TooltipInlineText text="pitot tube" tooltip='The word "pitot" came from Henri Pitot (1695–1771), who invented the device in the 1730s to measure the velocity of water in the River Seine.' /> is by comparing it with static pressure.
+
+Static pressure is included with the ram air pressure from the pitot tube, so it
+
+It uses a diapragm inside a casing where the static pressure is in the casing. The pitot tube feeds/expands the diaphragm.
+
+Has a drain hole at the back that doesn't affect the formula other than helping the intake to stay unblocked
+
+Imaginary formula `V = D+S-S`
+- V: indicated airspeed
+- D: dynamic/impact/ram air
+- S: static air pressure
+  - +S comes from the static port
+  - -S is neutralized with the drain hole at the back of the pitot tube
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+Why is this formula considered imaginary?
+
+:::
+</InvisibilityCloak>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KVpFkUeV_lY?si=qsLaQ9VGYtFdgdW6&amp;start=228" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Please note these videos mispronounce some things because they seem to be read by a text-to-speech system but the animations and explanation have been helpful
+
+
 less accurate at higher altitudes and temperatures
-Fed by the pitot tube
-- Takes in both ram air pressure and static air pressure
-Compares two different pressures
-
-"Calibrated leak"
-
-If you lea
 
 
-## Pitot/Static System Errors
+### Pitot/Static System Errors
 
-|     | Airspeed | Altimiter | Vertical Speed |
-| --- | -------- | --------- | -------------- |
-| Front of pitot blocked, static clear ||||
-| Front and drain of pitot blocked ||||
-| Pitot clear, static blocked ||||
+|                                      | Airspeed             | Altimiter | Vertical Speed |
+| ------------------------------------ | -------------------- | --------- | -------------- |
+| Front of pitot blocked, static clear | reads 0              | No effect | No effect      |
+| Front and drain of pitot blocked     | acts as an altimeter | No effect | No effect      |
+| Pitot clear, static blocked          | much higher airspeed | frozen in place | reads 0  |
 
 
 ## Gyroscopic Instruments
+00:47:00
 Ther's an engine driven vacuum pump moving gyroscopes in the system
 
 ### Rigitity in Space

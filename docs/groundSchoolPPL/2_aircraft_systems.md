@@ -65,7 +65,7 @@ To counteract adverse yaw
 ## Powerplant
 Engine!!
 All the Cesnas at Twin Oaks:
-- 4 cylander
+- 4 cylinder
 - horizontally opposed
   - creates better balanced forces
 - naturally aspirated - breathing natrual air, (not spooled, more compressed air)
