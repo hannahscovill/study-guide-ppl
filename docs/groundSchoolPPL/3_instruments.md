@@ -18,8 +18,45 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
 </InvisibilityCloak>
 
 ## Pitot/Static Instruments
-### Airspeed Indicator
 
+### Altimiter
+
+Has an aneroid wafer stack. Aneroid wafers are flexible metal capsules that are sealed with standard pressure.
+
+<table>
+<tbody>
+<tr>
+<td colspan="2"  >Standard Day at Sea Level</td>
+</tr>
+<tr>
+<td>Pressure</td>
+<td>26.92"Hg</td>
+</tr>
+<tr>
+<td>Temperature</td>
+<td>59°F (15°C)</td>
+</tr>
+<tr>
+<td>Altitude above Mean Sea Level</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+
+, 26.92"Hg, which is the pressure at sea level on a standard day. 
+Anaroid wafer stack has standard pressure, 26.92 sealed into the wafers. expands and contracts
+29.92 standard at sea level
+You lose 1"Hg for every 1000ft of altitude climbed
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/L1ml_vIibJc?si=sTZWyogX9ddReeXk&amp;start=155" title="YouTube video player" frameborder="0" allow="clipboard-write; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Supplement: The Pilot Institute - [Pressure Altitude vs. Density Altitude: What’s the Difference?](https://pilotinstitute.com/pressure-altitude-vs-density-altitude/)
+
+### Vertical Airspeed indicator
+Tells you if you're climbing or descending
+Calibrated leak goes into the casing
+
+### Airspeed Indicator
 Tries to figure out just the ram air pressure
 less accurate at higher altitudes and temperatures
 Fed by the pitot tube
@@ -31,21 +68,12 @@ Compares two different pressures
 If you lea
 
 
-### Vertical Airspeed indicator
-Tells you if you're climbing or descending
-Calibrated leak goes into the casing
-
-### Altimiter
-Anaroid wafer stack expands and contracts
-29.92 standard at sea level
-
-
 ## Pitot/Static System Errors
 
 |     | Airspeed | Altimiter | Vertical Speed |
 | --- | -------- | --------- | -------------- |
 | Front of pitot blocked, static clear ||||
-| Front and drain of pitot blocked||||
+| Front and drain of pitot blocked ||||
 | Pitot clear, static blocked ||||
 
 

@@ -318,7 +318,8 @@ Explain what you would do or check in each of the following scenarios:
 </details>
 <br/>
 
-**Unanswered**
+**Unanswered Scenarios**
+
 <details>
 	<summary><strong>3. We are flying from Twin Oaks to KMFR on a night cross country and you notice that the ALT INOP light turns on and the Ammeter is showing a discharge. Nearest airport is 30 minutes away.<br/><br/>What will you do?</strong></summary>
 
@@ -344,11 +345,12 @@ Explain what you would do or check in each of the following scenarios:
 </details>
 
 <details>
-	<summary><strong>7. Decoded: Unalakleet Airport, on the 15th of the month at 19:56 ZULU, Automatic Report, Winds from 080 at 10 Knots, Visibility 10SM, Light Rain, Clouds Few at 2,300, Overcast at 3,500, Temperature 11(oC) Dew Point 7(oC), Altimeter 29.61</strong></summary>
+	<summary><strong>7. Decode this METAR from PAUN (Unalakleet Arpt, AK, US):<br/><br/>PAUN 151956Z AUTO 08010KT 10SM -RA FEW023 OVC035 11/07 A2961 RMK AO2 RAE1858B43 SLP031 T01060072 PNO $</strong></summary>
 
-
+    Decoded: Unalakleet Airport, on the 15th of the month at 19:56 ZULU, Automatic Report, Winds from 080 at 10 Knots, Visibility 10SM, Light Rain, Clouds Few at 2,300, Overcast at 3,500, Temperature 11(oC) Dew Point 7(oC), Altimeter 29.61
 </details>
 <br/>
+---
 
 ## Quiz
 
@@ -410,7 +412,7 @@ Explain what you would do or check in each of the following scenarios:
 <details>
 	<summary><strong>8. What are magneto's? How are they connected to the rest of the ignition system?</strong></summary>
 
-	Self contained electrical generator units with a spinning electromagnet inside that each provide power to one of each of the two spark plugs on each cylinder, essentially allowing for one of them to run the engine if the other one fails
+    Self-contained electrical generator units with a spinning electromagnet inside that each provide power to one of each of the two spark plugs on each cylinder, essentially allowing for one of them to run the engine if the other one fails
 </details>
 <br/>
 
@@ -421,26 +423,36 @@ Explain what you would do or check in each of the following scenarios:
 </details>
 <br/>
 
+### More Scenarios
+
+Explain what you would do or check in each of the following scenarios:
+
 <details>
-	<summary><strong>10. Explain what you would do or check in each of the following scenarios?</strong></summary>
+    <summary><strong>a. In the summer, climbing to cruise altitude and the CHT’s are in the red</strong></summary>
 
-	**a. In the summer, climbing to cruise altitude and the CHT's are in the red**
-
-	Lower the pitch, reduce rpm, accelerate to increase airflow over the engine
-
-	**b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes**
-
-	Take the airplane back to get checked out, some problems you will not be able to solve yourself
-
-	**c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard**
-
-	Verify carb heat is pushed in and magnetos are on BOTH
-
-	**d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time**
-
-	Likely carb ice, so pull carb heat and let run for several minutes
+    Lower the pitch, reduce rpm, accelerate to increase airflow over the engine
 </details>
+<br/>
 
+<details>
+    <summary><strong>b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes</strong></summary>
+
+    Take the airplane back to get checked out, some problems you will not be able to solve yourself
+</details>
+<br/>
+
+<details>
+    <summary><strong>c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard</strong></summary>
+
+    Verify carb heat is pushed in and magnetos are on BOTH
+</details>
+<br/>
+
+<details>
+    <summary><strong>d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time</strong></summary>
+
+    Likely carb ice, so pull carb heat and let run for several minutes
+</details>
 
 ## Lesson Supplements
 
