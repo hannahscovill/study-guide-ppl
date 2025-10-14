@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import { useColorMode } from '@docusaurus/theme-common';
 
 type ClipboardShortTextProps = {
@@ -11,15 +10,33 @@ type ClipboardShortTextProps = {
 const ClipboardShortText = ({ text, className, style }: ClipboardShortTextProps) => {
   const [showTooltip, setShowTooltip] = useState(false);
   const { colorMode } = useColorMode();
-  const { siteConfig } = useDocusaurusContext();
-
-  // Get the appropriate text color based on theme
-  const textColor = colorMode === 'dark' ? '#fff' : '#000';
 
 
-  const handleCopy = async () => {
+  const handleCopy = async (e?: React.TouchEvent | React.MouseEvent) => {
+    if (e) {
+      e.preventDefault();
+      e.stopPropagation();
+    }
+
     try {
-      await navigator.clipboard.writeText(text);
+      // Fallback method for better mobile support
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        // Fallback for older browsers/devices
+        // Claude wrote this and I don't understand it but 
+        // the button doesn't work on touchscreens if it's not here
+        const textArea = document.createElement('textarea');
+        textArea.value = text;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        textArea.style.top = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        document.execCommand('copy');
+        textArea.remove();
+      }
       setShowTooltip(true);
       setTimeout(() => setShowTooltip(false), 2000);
     } catch (err) {
@@ -41,6 +58,7 @@ const ClipboardShortText = ({ text, className, style }: ClipboardShortTextProps)
       <span>{text}</span>
       <button
         onClick={handleCopy}
+        onTouchStart={handleCopy}
         style={{
           background: 'none',
           border: 'none',

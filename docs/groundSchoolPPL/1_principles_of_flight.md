@@ -378,6 +378,8 @@ Wake turbulance is the worst at Lifting off. Happens when you're heavy, clean an
 <Tabs>
   <TabItem value="spring2025" label="Spring 2025">
     <VideoPlayer src="/video/2_engines_electrical_systems_spring_2025/GMT20250430-010349_Recording_1760x900.mp4#t=0,1182" />
+	<ZoomLink url="https://us06web.zoom.us/rec/share/hSYd900TKmmia5uNVeIFz7q86R2_PcvLjFL0-Cj_y8zDb_-DHECGjFjnpFqo-wYL.wMM4ddAh31QrHrDq" passcode="Y%2..T4E" />
+	The quiz is reviewed at the beginning of class and we start up again at #5 at about 1:40:00
   </TabItem>
 </Tabs>
 

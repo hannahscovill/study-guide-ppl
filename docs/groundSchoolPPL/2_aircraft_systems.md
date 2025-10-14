@@ -12,7 +12,7 @@ import VideoPlayer from '@site/src/components/VideoPlayer/VideoPlayer';
     <Tabs>
         <TabItem value="spring2025" label="Spring 2025">
             <VideoPlayer src="/video/2_engines_electrical_systems_spring_2025/GMT20250430-010349_Recording_1760x900.mp4#t=1235" />
-        <ZoomLink url="https://us06web.zoom.us/rec/share/hSYd900TKmmia5uNVeIFz7q86R2_PcvLjFL0-Cj_y8zDb_-DHECGjFjnpFqo-wYL.wMM4ddAh31QrHrDq" passcode="Y%2..T4E" />
+            <ZoomLink url="https://us06web.zoom.us/rec/share/hSYd900TKmmia5uNVeIFz7q86R2_PcvLjFL0-Cj_y8zDb_-DHECGjFjnpFqo-wYL.wMM4ddAh31QrHrDq" passcode="Y%2..T4E" />
         </TabItem>
         <TabItem value="summer2025" label="Summer 2025">
             Important! I think this video might be for the wrong topic
@@ -248,6 +248,7 @@ You have to turn on the master switch (the battery) before you can start the eng
 The electrical system digram is in the POH
 
 Buses are like power strips that power multiple components coming from it.
+A bus bar is a hunk of metal that's kept in a housing to prevent accidental contact, used instead of lots of exposed wires
 
 14v or 28v system with 12v or 24v batteries
 
@@ -273,27 +274,180 @@ Tailwheels - bush flying
 Lubscome tail wheel planes
 
 ## Hydraulics
-Shimmy dampener - some are air
-Olwheel strut
+Shimmy dampener - keeps the nosewheel from rapidly turning back and forth - some use air instead of fluid
+Oleo strut - in the landing gear
+
+<InvisibilityCloak>
+:::note[Course Questions/Feedback]
+
+~ 01:30:00
+
+The RV12 doesn't have the Oleo strut. If you want to be extra technical I think the canopy has hydraulics?
+
+Can these be written on the slides..?
+
+:::
+</InvisibilityCloak>
+
 Brakes
 
 
-#### Scenarios
+## Scenarios
 
-1
-You have a p-lead When you turn a magneto off and don't see a drop in rpms
-If it doesn't drop, it means that the right mag isn't grounded and it's notturning off when it's supposed to
+Explain what you would do or check in each of the following scenarios:
+
+<details>
+	<summary><strong>1. During runup you switch from both mags to R and the engine rms decreases. Then back to both. Then you switch the key to the left and there is no mag drop.<br/><br/>Which system does this pertain to and is there a problem?</strong></summary>
+
+    - Electrical > ignition system problem
+    - The ground (or p-lead) is faulty
+    - This is dangerous because you wouldn't be able to turn the plane off
+
+	The p-lead is faulty. If the RPMs don't drop, it means that magneto isn't grounded and it's not turning off when it's supposed to. This is unsafe because the magneto could fire even with the key off.
+</details>
+
+<details>
+	<summary><strong>2. On a cross country flight you've climbed to your desired altitude and leaned the mixture. You're on a time crunch so you increase your RPM to get there in time. You start to notice high <TooltipInlineText text="CHT" tooltip="Cylinder Head Temperature" /> and low <TooltipInlineText text="EGT" tooltip="Exhaust Gas Temperature" />.<br/><br/>What's the likely problem and how do you resolve it?</strong></summary>
+
+	This could mean detonation. You would likely hear engine banging if this is occurring.
+
+	Actions to take:
+	- Enrich the mixture
+	- Lower the RPM
+	- Descend to cool the engine
+</details>
+<br/>
+
+**Unanswered**
+<details>
+	<summary><strong>3. We are flying from Twin Oaks to KMFR on a night cross country and you notice that the ALT INOP light turns on and the Ammeter is showing a discharge. Nearest airport is 30 minutes away.<br/><br/>What will you do?</strong></summary>
 
 
-2
-High CHT, low EGT could mean detonation
+</details>
 
-You would definitely hear that, right?
-If the engine starts banging, it could be other things, but it would be accomanied by the
+<details>
+	<summary><strong>4. You are on a long XC in the winter. The only nearby airport is a small grass strip with no services nearby. There is a faint smell of gas that is slowly getting stronger.<br/><br/>What system is likely causing the problem? Why? What should we do?</strong></summary>
 
-Enrich the mixture, lower the rpm, decent to cool the engine
+
+</details>
+
+<details>
+	<summary><strong>5. You're conducting a cross-country flight in a Cessna 150 on a hot summer day. After climbing to cruise altitude, you notice that the oil temperature gauge is indicating higher than normal, and the cylinder head temperature (CHT) is also approaching the upper limit.<br/><br/>How would you manage this situation?</strong></summary>
+
+
+</details>
+
+<details>
+	<summary><strong>6. You are taking your plane on a cross country from an airport other than your home airport and you see the oil level is low.<br/><br/>How would you go about finding the correct oil for your airplane?</strong></summary>
+
+
+</details>
+
+<details>
+	<summary><strong>7. Decoded: Unalakleet Airport, on the 15th of the month at 19:56 ZULU, Automatic Report, Winds from 080 at 10 Knots, Visibility 10SM, Light Rain, Clouds Few at 2,300, Overcast at 3,500, Temperature 11(oC) Dew Point 7(oC), Altimeter 29.61</strong></summary>
+
+
+</details>
+<br/>
+
+## Quiz
+
+<details>
+	<summary><strong>1. What are the primary flight controls? What do they control?</strong></summary>
+
+	- Ailerons - Roll
+	- Rudder - Yaw
+	- Elevator - Pitch
+</details>
+<br/>
+
+<details>
+	<summary><strong>2. What are the secondary flight controls? What do they do?</strong></summary>
+
+	- Trim - Helps hold an attitude
+	- Flaps - Helps fly a steeper descent at a constant airspeed. Greater lift for slower speed
+	- Spoilers - Spoil the lift on the surface of the wing, putting the weight on the wheels
+</details>
+<br/>
+
+<details>
+	<summary><strong>3. What are the 4 strokes of our aircraft's internal combustion engines?</strong></summary>
+
+	Intake, Compression, Combustion, Exhaust
+</details>
+<br/>
+
+<details>
+	<summary><strong>4. What is detonation? Pre Ignition? How do you fix them?</strong></summary>
+
+	**Detonation** - When the fuel/air mixture explodes rather than burns evenly
+
+	**Pre Ignition** - Hot spots on the cylinder ignite the fuel/air mixture early
+</details>
+<br/>
+
+<details>
+	<summary><strong>5. Why is the propeller twisted?</strong></summary>
+
+	Greater angle of attack at the hub to provide equal lift across the blade
+</details>
+<br/>
+
+<details>
+	<summary><strong>6. How does fuel get drawn into the carburetor?</strong></summary>
+
+	Venturi effect creates a low pressure zone, sucking the fuel into the air
+</details>
+<br/>
+
+<details>
+	<summary><strong>7. Where does ice form in the carb and under what conditions? If it's 60 degrees outside (F) can carb ice still form? 70? 80?</strong></summary>
+
+	When that low pressure zone is formed, the temp drops and ice will form there. Ice can form usually under 70 degrees but when it's hotter on the ground, at altitude it will most often be cooler, so the risk is basically always there. Even if there is no visible moisture in the air, like on a clear summer day.
+</details>
+<br/>
+
+<details>
+	<summary><strong>8. What are magneto's? How are they connected to the rest of the ignition system?</strong></summary>
+
+	Self contained electrical generator units with a spinning electromagnet inside that each provide power to one of each of the two spark plugs on each cylinder, essentially allowing for one of them to run the engine if the other one fails
+</details>
+<br/>
+
+<details>
+	<summary><strong>9. How do carb and cabin heat work?</strong></summary>
+
+	Air for the carb and cabin heat are routed over the exhaust shroud allowing the heat from the exhaust to heat up the air.
+</details>
+<br/>
+
+<details>
+	<summary><strong>10. Explain what you would do or check in each of the following scenarios?</strong></summary>
+
+	**a. In the summer, climbing to cruise altitude and the CHT's are in the red**
+
+	Lower the pitch, reduce rpm, accelerate to increase airflow over the engine
+
+	**b. At runup, you pull the carb heat and watch the engine rpm. Nothing changes**
+
+	Take the airplane back to get checked out, some problems you will not be able to solve yourself
+
+	**c. On takeoff, you appear to take longer than usual to get off the ground and your climb performance is greatly reduced. Density altitude is standard**
+
+	Verify carb heat is pushed in and magnetos are on BOTH
+
+	**d. In cruise the engine appears to die or cut out, losing large amounts of rpm for short periods of time**
+
+	Likely carb ice, so pull carb heat and let run for several minutes
+</details>
 
 
 ## Lesson Supplements
 
 <!-- [The Pros And Cons Of Carbureted vs. Fuel Injected Engines](https://www.boldmethod.com/learn-to-fly/systems/carbureted-vs-fuel-injected-engines-in-your-airplane-and-how-it-works/) -->
+
+[How a Magneto Works](https://www.aopa.org/news-and-media/all-news/2019/december/flight-training-magazine/how-it-works-magneto)
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/NLT2GzgGWGQ?si=Fs0oECsT1WOeMnyx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BW7DhcU4HMA?si=EbmtUuPLxms3fHJf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
