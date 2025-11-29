@@ -122,7 +122,13 @@ The club meets weekly on Wednesday nights from 6-8pm PT in person at [Twin Oaks 
       <td>24</td>
     </tr>
     <tr>
-      <td rowspan="2">11/19</td>
+      <td>11/19</td>
+      <td>Chapter 16: <a href="./navigation">Navigation</a></td>
+      <td>35</td>
+      <td>35</td>
+    </tr>
+    <tr>
+      <td rowspan="2">12/03</td>
       <td>Chapter 14: <a href="./airport_operations">Airport Operations</a></td>
       <td>38</td>
       <td rowspan="2">49</td>
@@ -132,13 +138,7 @@ The club meets weekly on Wednesday nights from 6-8pm PT in person at [Twin Oaks 
       <td>11</td>
     </tr>
     <tr>
-      <td>11/26</td>
-      <td>Chapter 16: <a href="./navigation">Navigation</a></td>
-      <td>35</td>
-      <td>35</td>
-    </tr>
-    <tr>
-      <td>12/03</td>
+      <td>12/10</td>
       <td>Chapter 17: <a href="./aeromedical_factors">Aeromedical Factors</a></td>
       <td>29</td>
       <td>29</td>
